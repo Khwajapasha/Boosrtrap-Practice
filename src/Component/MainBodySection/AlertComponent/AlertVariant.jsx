@@ -19,7 +19,6 @@ export const AlertVariant = () => {
           This is a {variant} alert—check it out!
         </Alert>
       ))}
-      ;
     </div>
   );
 };
