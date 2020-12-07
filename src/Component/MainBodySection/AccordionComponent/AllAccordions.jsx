@@ -17,7 +17,7 @@ export const AllAccordions = () => {
       )}
       <Button onClick={() => setShow(!show)}>
         Click To Load All Accordions
-      </Button>
+      </Button>{" "}
     </React.Fragment>
   );
 };

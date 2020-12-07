@@ -19,9 +19,9 @@ export const AllAlert = () => {
             <AlertDismisableVisual />
           </div>
         )}
-        <Button variant="success"onClick={() => setShow(!show)}>
-          Click Me To Load All Alert{" "}
-        </Button>
+        <Button variant="success" onClick={() => setShow(!show)}>
+          Click Me To Load All Alert
+        </Button>{" "}
       </React.Fragment>
     );
 }
