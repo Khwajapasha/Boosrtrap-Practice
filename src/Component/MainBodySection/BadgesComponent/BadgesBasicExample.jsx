@@ -3,9 +3,13 @@ import { Badge, Button } from "react-bootstrap";
 export const BadgesBasicExample = () => {
   return (
     <div>
+      <br />
+      <br />
+      === Basic Example Of Badges===
+      <br />
+      <br />
       <h1>
-        Basic Example Of Badge In H1 Tag{" "}
-        <Badge variant="secondary">H1 Badge</Badge>
+        Example heading <Badge variant="secondary">H1 Badge</Badge>
       </h1>
       <h2>
         Example heading <Badge variant="secondary">New</Badge>
@@ -22,11 +26,7 @@ export const BadgesBasicExample = () => {
       <h6>
         Example heading <Badge variant="secondary">New</Badge>
       </h6>
-
-
       {/* Badges can be used as part of links or buttons to provide a counter. */}
-      
-      
       <Button variant="primary">
         Profile <Badge variant="light">9</Badge>
         <span className="sr-only">unread messages</span>
