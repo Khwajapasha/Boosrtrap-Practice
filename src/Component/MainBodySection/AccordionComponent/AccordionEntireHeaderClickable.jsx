@@ -3,6 +3,8 @@ import { Card, Accordion } from "react-bootstrap";
 export const AccordionEntireHeaderClickable = () => {
   return (
     <div>
+      <br /> ====== Entire Header Clickable Accordion ====== <br />
+      <br />
       <Accordion>
         <Card>
           <Accordion.Toggle as={Card.Header} eventKey="0">

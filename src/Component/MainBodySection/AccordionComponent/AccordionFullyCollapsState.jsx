@@ -5,8 +5,7 @@ export const AccordionFullyCollapsState = () => {
   return (
     <div>
       <br />
-      Fully Collapsed State Accordion Starts From Here
-      <br />
+      ====== Fully Collapsed State Accordion Starts From Here ====== <br />
       <br />
       <Accordion>
         <Card>
