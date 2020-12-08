@@ -11,7 +11,9 @@ export const AllBreadcrumb = () => {
         </div>
       )}
       <div>
-        <Button onClick={() => setShow(!show)}>Click To Load Breadcrumb</Button>
+        <Button onClick={() => setShow(!show)} className="mt-2">
+          Click To Load Breadcrumb
+        </Button>
       </div>
     </React.Fragment>
   );

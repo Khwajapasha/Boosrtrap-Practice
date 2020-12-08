@@ -3,6 +3,11 @@ import { Button } from "react-bootstrap";
 export const ButtonBasicExample = () => {
   return (
     <div>
+      <br />
+      <br />
+      === Basic Example of button ===
+      <br />
+      <br />
       <Button variant="primary">Primary</Button>{" "}
       <Button variant="secondary">Secondary</Button>{" "}
       <Button variant="success">Success</Button>{" "}
@@ -10,7 +15,8 @@ export const ButtonBasicExample = () => {
       <Button variant="danger">Danger</Button>{" "}
       <Button variant="info">Info</Button>{" "}
       <Button variant="light">Light</Button>{" "}
-      <Button variant="dark">Dark</Button> <Button variant="link">Link</Button>
+      <Button variant="dark">Dark</Button>
+      <Button variant="link">Link</Button>
     </div>
   );
 };
