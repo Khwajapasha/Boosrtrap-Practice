@@ -2,6 +2,7 @@ import React from "react";
 import { AllAccordions } from "./AccordionComponent/AllAccordions";
 import { AllAlert } from "./AlertComponent/AllAlert";
 import { AllBadges } from "./BadgesComponent/AllBadges";
+import { AllBreadcrumb } from "./Breadcrumbs/AllBreadcrumb";
 
 export const MainBodySection = () => {
   return (
@@ -9,6 +10,7 @@ export const MainBodySection = () => {
       <AllAlert />
       <AllAccordions />
       <AllBadges/>
+      <AllBreadcrumb/>
     </div>
   );
 };
