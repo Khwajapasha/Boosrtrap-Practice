@@ -1,10 +1,10 @@
 import React from "react";
-import { BreadCrumbs } from "./BreadCrumbs";
+import { BreadCrumbsComponent } from "./BreadCrumbsComponent";
 
 export const AllBreadcrumb = (props) => {
   return (
     <div>
-      <BreadCrumbs />
+      <BreadCrumbsComponent />
     </div>
   );
 };
