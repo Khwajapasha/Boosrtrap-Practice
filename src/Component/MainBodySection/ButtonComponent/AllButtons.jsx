@@ -5,6 +5,8 @@ import { Button } from "react-bootstrap";
 import { ButtonOutLine } from "./ButtonOutLine";
 import { ButtonTags } from "./ButtonTags";
 import { ButtonSizes } from "./ButtonSizes";
+import {ButtonStates} from "./ButtonStates";
+import { ButtonLoadingState } from "./ButtonLoadingState";
 export const AllButtons = () => {
   const [show, setShow] = useState(false);
   return (
@@ -15,6 +17,8 @@ export const AllButtons = () => {
           <ButtonOutLine />
           <ButtonTags />
           <ButtonSizes />
+          <ButtonStates/>
+          <ButtonLoadingState/>
         </div>
       )}
       <Button onClick={() => setShow(!show)} className="mt-2">
