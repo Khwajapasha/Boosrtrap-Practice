@@ -7,6 +7,7 @@ import { ButtonTags } from "./ButtonTags";
 import { ButtonSizes } from "./ButtonSizes";
 import {ButtonStates} from "./ButtonStates";
 import { ButtonLoadingState } from "./ButtonLoadingState";
+import { ButtonCheckBoxAndRadio } from "./ButtonCheckBoxAndRadio";
 export const AllButtons = () => {
   const [show, setShow] = useState(false);
   return (
@@ -19,6 +20,7 @@ export const AllButtons = () => {
           <ButtonSizes />
           <ButtonStates/>
           <ButtonLoadingState/>
+          <ButtonCheckBoxAndRadio/>
         </div>
       )}
       <Button onClick={() => setShow(!show)} className="mt-2">

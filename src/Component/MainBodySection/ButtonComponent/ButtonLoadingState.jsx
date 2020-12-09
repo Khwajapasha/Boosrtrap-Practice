@@ -19,7 +19,7 @@ export const ButtonLoadingState = () => {
 
   return (
     <Button
-      variant="primary"
+      variant="success"
       disabled={isLoading}
       onClick={!isLoading ? handleClick : null}
       className="mt-2"
