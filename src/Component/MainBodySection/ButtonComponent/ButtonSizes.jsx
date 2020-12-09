@@ -41,11 +41,25 @@ export const ButtonSizes = () => {
         </Button>
       </div>
       <div>
-        === Block Size Button ===
-        <Button variant="primary" size="lg" block>
+        === Block Size Button "lg" ===
+        <Button variant="primary" size="lg" block className="mt-2">
           Block level button
         </Button>
         <Button variant="secondary" size="lg" block>
+          Block level button
+        </Button>
+        === Block Size Button "md" ===
+        <Button variant="primary" size="md" block className="mt-2">
+          Block level button
+        </Button>
+        <Button variant="secondary" size="md" block>
+          Block level button
+        </Button>
+        === Block Size Button "lg" ===
+        <Button variant="primary" size="sm" block className="mt-2">
+          Block level button
+        </Button>
+        <Button variant="secondary" size="sm" block>
           Block level button
         </Button>
       </div>
