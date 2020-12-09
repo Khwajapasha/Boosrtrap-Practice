@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React, { useState } from "react";
 import { ButtonGroup, ToggleButton } from "react-bootstrap";
 export const ButtonCheckBoxAndRadio = () => {
   const [checked, setChecked] = useState(false);
@@ -13,34 +13,44 @@ export const ButtonCheckBoxAndRadio = () => {
   ];
 
   return (
-    <>
-      <ButtonGroup toggle className="mb-2">
-        <ToggleButton
-          type="checkbox"
-          variant="secondary"
-          checked={checked}
-          value="1"
-          onChange={(e) => setChecked(e.currentTarget.checked)}
-        >
-          Checked
-        </ToggleButton>
-      </ButtonGroup>
-      <br />
-      <ButtonGroup toggle>
-        {radios.map((radio, idx) => (
+    <div>
+      <div>
+        <br />
+        === Button Type CheckBox ===
+        <br />
+        <br />
+        <ButtonGroup toggle className="mb-2">
           <ToggleButton
-            key={idx}
-            type="radio"
+            type="checkbox"
             variant="secondary"
-            name="radio"
-            value={radio.value}
-            checked={radioValue === radio.value}
-            onChange={(e) => setRadioValue(e.currentTarget.value)}
+            checked={checked}
+            value="1"
+            onChange={(e) => setChecked(e.currentTarget.checked)}
           >
-            {radio.name}
+            Checked
           </ToggleButton>
-        ))}
-      </ButtonGroup>
-    </>
+        </ButtonGroup>
+      </div>
+      <div>
+        <br />
+        === Dynamic Loading Of Radio Button ===
+        <br /> <br />
+        <ButtonGroup toggle>
+          {radios.map((radio, idx) => (
+            <ToggleButton
+              key={idx}
+              type="radio"
+              variant="secondary"
+              name="radio"
+              value={radio.value}
+              checked={radioValue === radio.value}
+              onChange={(e) => setRadioValue(e.currentTarget.value)}
+            >
+              {radio.name}
+            </ToggleButton>
+          ))}
+        </ButtonGroup>
+      </div>
+    </div>
   );
 };
