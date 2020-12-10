@@ -10,7 +10,12 @@
     "react": "^16.13.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-native-chatbot": "0.0.1-alpha.12",
+    "react-scripts": "3.4.3",
+    "react-simple-chatbot": "^0.6.1",
+    "styled-components": "^5.2.1",
+    "use-immer": "^0.4.2",
+    "use-socket.io-client": "^1.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
