@@ -4,16 +4,16 @@ import { AllAlert } from "./AlertComponent/AllAlert";
 import { AllBadges } from "./BadgesComponent/AllBadges";
 import { AllBreadcrumb } from "./Breadcrumbs/AllBreadcrumb";
 import {AllButtons} from "./ButtonComponent/AllButtons"
+import {AllGroupsButton} from "./ButtonsGroupsComponent/AllGroupsButton"
 export const MainBodySection = () => {
   return (
-    <div >
+    <div>
       <AllAlert />
       <AllAccordions />
       <AllBadges />
       <AllBreadcrumb />
       <AllButtons />
-      </div>
-       
-    
+      <AllGroupsButton />
+    </div>
   );
 };
