@@ -1,19 +1,21 @@
-import React from 'react';
-import {Button} from "react-bootstrap"
+import React from "react";
+import { useState } from "react";
+import { Button } from "react-bootstrap";
 import { ButtonGroupsBasicExample } from "./ButtonGroupsBasicExample";
-import {ButtonToolbarExample} from "./ButtonToolbarExample"
+import { ButtonToolbarExample } from "./ButtonToolbarExample";
 export const AllGroupsButton = () => {
-    return (
-      <React.Fragment>
+  const [show, setShow] = useState(false);
+  return (
+    <React.Fragment>
+      {show && (
         <div>
           <ButtonGroupsBasicExample />
           <ButtonToolbarExample />
         </div>
-        <div>
-            <Button></Button>
-        </div>
-      </React.Fragment>
-    );
-
+      )}
+      <div className="mt-2">
+        <Button onClick={() => setShow(!show)}>Click To Load All Button Groups </Button>
+      </div>
+    </React.Fragment>
+  );
 };
-
