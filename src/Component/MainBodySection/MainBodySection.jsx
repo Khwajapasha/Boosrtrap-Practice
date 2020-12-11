@@ -13,23 +13,8 @@ export const MainBodySection = () => {
       <AllBadges />
       <AllBreadcrumb />
       <AllButtons />
-      <div>
-        <div style={{ padding: "20px" }}>
-          <h1>Content of my application will go here.....</h1>
-          <p>
-            Sample content to fill the gap as much as possible. Sample content
-            to fill the gap as much as possible. Sample content to fill the gap
-            as much as possible.Sample content to fill the gap as much as
-            possible.
-          </p>
-          <p>
-            More content to fill the available area of the main contect. More
-            content to fill the available area of the main contect. More content
-            to fill the available area of the main contect.More content to fill
-            the available area of the main contect.{" "}
-          </p>
-        </div>
       </div>
-    </div>
+       
+    
   );
 };

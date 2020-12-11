@@ -1,5 +1,4 @@
 import React from "react";
-import { ChatBoxLayout} from "../ChatBox/ChatBoxLayout";
 import { HeaderSection } from "../Header Section/HeaderSection";
 import { MainBodySection } from "../MainBodySection/MainBodySection";
 import {LeftNavigationSection} from "../LeftNavigationSection/LeftNavigationSection"
@@ -9,7 +8,7 @@ export const Home = () => {
       <HeaderSection/>
       <LeftNavigationSection/>
       <MainBodySection />
-      <ChatBoxLayout/>
+      
     </div>
   );
 };
