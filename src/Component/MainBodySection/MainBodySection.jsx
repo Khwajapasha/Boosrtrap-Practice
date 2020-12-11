@@ -4,10 +4,9 @@ import { AllAlert } from "./AlertComponent/AllAlert";
 import { AllBadges } from "./BadgesComponent/AllBadges";
 import { AllBreadcrumb } from "./Breadcrumbs/AllBreadcrumb";
 import {AllButtons} from "./ButtonComponent/AllButtons"
-import "../ChatBox/ChatBoxLayout.css";
 export const MainBodySection = () => {
   return (
-    <div className="content">
+    <div >
       <AllAlert />
       <AllAccordions />
       <AllBadges />
