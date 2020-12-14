@@ -1,11 +1,21 @@
-import React from 'react';
-import {CardBasicExample} from "./CardBasicExample"
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
+import { CardBasicExample } from "./CardBasicExample";
 export const AllCards = () => {
-    return (
+  const [show, setShow] = useState(false);
+  return (
+    <React.Fragment>
+      {show && (
         <div>
-            <CardBasicExample/>
+          <CardBasicExample />
         </div>
-    );
+      )}
+      <div className="mt-2">
+        <Button onClick={() => setShow(!show)}>
+          {" "}
+          Click to load all cards{" "}
+        </Button>
+      </div>
+    </React.Fragment>
+  );
 };
-
- 
