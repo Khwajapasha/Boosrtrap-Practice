@@ -1,13 +1,17 @@
 import React, { useState } from "react";
-import { Button } from "react-bootstrap";
+import { Button, Row } from "react-bootstrap";
 import { CardBasicExample } from "./CardBasicExample";
+import { CardHeaderAndFooter } from "./CardHeaderAndFooter";
 export const AllCards = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
       {show && (
         <div>
-          <CardBasicExample />
+          <Row>
+            <CardBasicExample />
+            <CardHeaderAndFooter />
+          </Row>
         </div>
       )}
       <div className="mt-2">

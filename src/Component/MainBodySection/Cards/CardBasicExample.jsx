@@ -2,11 +2,13 @@ import React from "react";
 import { Card, Button } from "react-bootstrap";
 export const CardBasicExample = () => {
   return (
-    <div className="mt-2"><br/>
-    === Basics example of card also we add Card.Header, Card.Subtitle, Card.Text,Card.Link ===
-    <br/>
-    <br/>
-      <Card style={{ width: "18rem" }}>
+    <div className="mt-2">
+      <br />
+      === Basics example of card also we add Card.Header, Card.Subtitle,
+      Card.Text,Card.Link ===
+      <br />
+      <br />
+      <Card style={{ width: "12rem" }}>
         <Card.Img variant="top" src="Assets/Rose.jpg" />
         <Card.Body>
           <Card.Title>Card Title</Card.Title>
