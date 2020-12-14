@@ -5,6 +5,7 @@ import { AllBadges } from "./BadgesComponent/AllBadges";
 import { AllBreadcrumb } from "./Breadcrumbs/AllBreadcrumb";
 import {AllButtons} from "./ButtonComponent/AllButtons"
 import {AllGroupsButton} from "./ButtonsGroupsComponent/AllGroupsButton"
+import { AllCards } from "./Cards/AllCards";
 export const MainBodySection = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ export const MainBodySection = () => {
       <AllBreadcrumb />
       <AllButtons />
       <AllGroupsButton />
+      <AllCards/>
     </div>
   );
 };
