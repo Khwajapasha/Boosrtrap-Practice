@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Button, Row } from "react-bootstrap";
 import { CardBasicExample } from "./CardBasicExample";
 import { CardHeaderAndFooter } from "./CardHeaderAndFooter";
+import { CardImageOverlay } from "./CardImageOverlay";
 export const AllCards = () => {
   const [show, setShow] = useState(false);
   return (
@@ -11,6 +12,7 @@ export const AllCards = () => {
           <Row>
             <CardBasicExample />
             <CardHeaderAndFooter />
+            <CardImageOverlay />
           </Row>
         </div>
       )}
