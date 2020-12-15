@@ -3,6 +3,7 @@ import { Button, Row } from "react-bootstrap";
 import { CardBasicExample } from "./CardBasicExample";
 import { CardHeaderAndFooter } from "./CardHeaderAndFooter";
 import { CardImageOverlay } from "./CardImageOverlay";
+import {CardNavigation} from "./CardNavigation";
 export const AllCards = () => {
   const [show, setShow] = useState(false);
   return (
@@ -13,6 +14,7 @@ export const AllCards = () => {
             <CardBasicExample />
             <CardHeaderAndFooter />
             <CardImageOverlay />
+            <CardNavigation />
           </Row>
         </div>
       )}
