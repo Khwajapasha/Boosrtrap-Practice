@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button, Row } from "react-bootstrap";
 import { CardBasicExample } from "./CardBasicExample";
+import {CardDynamicLoaded} from "./CardDynamicLoaded";
 import { CardHeaderAndFooter } from "./CardHeaderAndFooter";
 import { CardImageOverlay } from "./CardImageOverlay";
 import {CardNavigation} from "./CardNavigation";
@@ -15,7 +16,9 @@ export const AllCards = () => {
             <CardHeaderAndFooter />
             <CardImageOverlay />
             <CardNavigation />
+            <CardDynamicLoaded />
           </Row>
+          
         </div>
       )}
       <div className="mt-2">
