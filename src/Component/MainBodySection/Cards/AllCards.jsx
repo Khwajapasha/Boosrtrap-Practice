@@ -7,6 +7,7 @@ import { CardImageOverlay } from "./CardImageOverlay";
 import {CardNavigation} from "./CardNavigation";
 import { CardBorderColor } from "./CardBorderColor";
 import { CradGroup } from "./CradGroup";
+import { CardsDeck } from "./CardsDeck";
 export const AllCards = () => {
   const [show, setShow] = useState(false);
   return (
@@ -21,6 +22,7 @@ export const AllCards = () => {
             <CardDynamicLoaded />
             <CardBorderColor />
             <CradGroup />
+            <CardsDeck />
           </Row>
         </div>
       )}
