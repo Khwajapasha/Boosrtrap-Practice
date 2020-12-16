@@ -8,6 +8,7 @@ import {CardNavigation} from "./CardNavigation";
 import { CardBorderColor } from "./CardBorderColor";
 import { CradGroup } from "./CradGroup";
 import { CardsDeck } from "./CardsDeck";
+import {CardsColumn} from "./CardsColumn"
 export const AllCards = () => {
   const [show, setShow] = useState(false);
   return (
@@ -24,6 +25,7 @@ export const AllCards = () => {
             <CradGroup />
             <CardsDeck />
           </Row>
+          <CardsColumn/>
         </div>
       )}
       <div className="mt-2">
