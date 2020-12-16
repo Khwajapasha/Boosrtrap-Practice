@@ -6,6 +6,7 @@ import { CardHeaderAndFooter } from "./CardHeaderAndFooter";
 import { CardImageOverlay } from "./CardImageOverlay";
 import {CardNavigation} from "./CardNavigation";
 import { CardBorderColor } from "./CardBorderColor";
+import { CradGroup } from "./CradGroup";
 export const AllCards = () => {
   const [show, setShow] = useState(false);
   return (
@@ -19,8 +20,8 @@ export const AllCards = () => {
             <CardNavigation />
             <CardDynamicLoaded />
             <CardBorderColor />
+            <CradGroup />
           </Row>
-          
         </div>
       )}
       <div className="mt-2">
