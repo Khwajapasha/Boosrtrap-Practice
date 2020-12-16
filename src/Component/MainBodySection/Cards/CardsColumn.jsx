@@ -5,7 +5,7 @@ export const CardsColumn = () => {
       <div>
         <CardColumns>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src="Assets/Rose.jpg" />
             <Card.Body>
               <Card.Title>Card title that wraps to a new line</Card.Title>
               <Card.Text>
@@ -30,7 +30,7 @@ export const CardsColumn = () => {
             </blockquote>
           </Card>
           <Card>
-            <Card.Img variant="top" src="holder.js/100px160" />
+            <Card.Img variant="top" src="Assets/Rose.jpg" />
             <Card.Body>
               <Card.Title>Card title</Card.Title>
               <Card.Text>
@@ -69,7 +69,7 @@ export const CardsColumn = () => {
             </Card.Body>
           </Card>
           <Card>
-            <Card.Img src="holder.js/100px160" />
+            <Card.Img src="Assets/Rose.jpg" />
           </Card>
           <Card className="text-right">
             <blockquote className="blockquote mb-0 card-body">
