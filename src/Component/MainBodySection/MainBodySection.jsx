@@ -6,6 +6,7 @@ import { AllBreadcrumb } from "./Breadcrumbs/AllBreadcrumb";
 import {AllButtons} from "./ButtonComponent/AllButtons"
 import {AllGroupsButton} from "./ButtonsGroupsComponent/AllGroupsButton"
 import { AllCards } from "./Cards/AllCards";
+import { AllCarousel } from "./CarouselsSection/AllCarousel"
 export const MainBodySection = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ export const MainBodySection = () => {
       <AllButtons />
       <AllGroupsButton />
       <AllCards/>
+      <AllCarousel/>
     </div>
   );
 };
