@@ -1,10 +1,18 @@
-import React from 'react';
-import {CarouselBasicExample} from "./CarouselBasicExample"
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
+import { CarouselBasicExample } from "./CarouselBasicExample";
 export const AllCarousel = () => {
-    return (
+  const [show, setShow] = useState(false);
+  return (
+    <React.Fragment>
+      {show && (
         <div className="mt-2">
-            <CarouselBasicExample/>
+          <CarouselBasicExample />
         </div>
-    );
+      )}
+      <div className="mt-2">
+        <Button onClick={() => setShow(!show)}>Click to load Carousel</Button>
+      </div>
+    </React.Fragment>
+  );
 };
-
