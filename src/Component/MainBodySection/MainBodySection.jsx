@@ -2,11 +2,12 @@ import React from "react";
 import { AllAccordions } from "./AccordionComponent/AllAccordions";
 import { AllAlert } from "./AlertComponent/AllAlert";
 import { AllBadges } from "./BadgesComponent/AllBadges";
-import { AllBreadcrumb } from "./Breadcrumbs/AllBreadcrumb";
+import { AllBreadcrumb } from "./BreadcrumbsComponent/AllBreadcrumb";
 import {AllButtons} from "./ButtonComponent/AllButtons"
 import {AllGroupsButton} from "./ButtonsGroupsComponent/AllGroupsButton"
-import { AllCards } from "./Cards/AllCards";
-import { AllCarousel } from "./CarouselsSection/AllCarousel"
+import { AllCards } from "./CardsComponent/AllCards";
+import { AllCarousel } from "./CarouselsComponent/AllCarousel"
+import { AllDropDown } from "./DropDownComponent/AllDropDown";
 export const MainBodySection = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ export const MainBodySection = () => {
       <AllGroupsButton />
       <AllCards/>
       <AllCarousel/>
+      <AllDropDown/>
     </div>
   );
 };

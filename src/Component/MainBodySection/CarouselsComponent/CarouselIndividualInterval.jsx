@@ -29,7 +29,7 @@ export const CarouselIndividualInterval = () => {
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item interval={2000}>
-            >
+            
             <img
               className="d-block w-100"
               src="Assets/Sample1.jpg"
