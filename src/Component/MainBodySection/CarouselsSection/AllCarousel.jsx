@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { CarouselBasicExample } from "./CarouselBasicExample";
+import { ControlledCarousel } from "./ControlledCarousel";
 export const AllCarousel = () => {
   const [show, setShow] = useState(false);
   return (
@@ -8,6 +9,7 @@ export const AllCarousel = () => {
       {show && (
         <div className="mt-2">
           <CarouselBasicExample />
+          <ControlledCarousel/>
         </div>
       )}
       <div className="mt-2">
