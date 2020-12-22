@@ -3,6 +3,9 @@ import { Dropdown, DropdownButton } from "react-bootstrap";
 export const DropDownBasicExample = () => {
     return (
       <div className="mt-2">
+        <br />
+        === Simple Dropdown ===
+        <br />
         <Dropdown>
           <Dropdown.Toggle variant="success" id="dropdown-basic">
             Dropdown
@@ -14,6 +17,8 @@ export const DropDownBasicExample = () => {
             <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
           </Dropdown.Menu>
         </Dropdown>
+        === Simple DropdownButton ===
+        <br />
         <DropdownButton
           id="dropdown-basic-button"
           title="Dropdown button"

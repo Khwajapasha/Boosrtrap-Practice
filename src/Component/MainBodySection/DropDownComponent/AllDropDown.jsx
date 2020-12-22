@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import {DropDownBasicExample} from './DropDownBasicExample';
 import {Button} from "react-bootstrap"
 import { DropDownDynamicColors } from './DropDownDynamicColors';
+import {DropDownSplitButton} from './DropDownSplitButton';
 export const AllDropDown = () => {
     const [show,setShow]=useState(false)
     return (
@@ -10,6 +11,7 @@ export const AllDropDown = () => {
           <div>
             <DropDownBasicExample />
             <DropDownDynamicColors/>
+            <DropDownSplitButton/>
           </div>
         )}
         <div className="mt-2">

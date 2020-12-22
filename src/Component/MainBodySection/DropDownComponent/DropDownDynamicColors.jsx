@@ -3,6 +3,7 @@ import {DropdownButton,Dropdown,ButtonGroup} from "react-bootstrap"
 export const DropDownDynamicColors = () => {
     return (
       <div>
+          === Dynamic Color of DropdownButton ===<br/>
         {["Primary", "Secondary", "Success", "Info", "Warning", "Danger"].map(
           (variant) => (
             <DropdownButton
