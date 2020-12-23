@@ -9,10 +9,6 @@ export const FormBasic = () => {
         alignItems: "center",
       }}
     >
-      <br />
-      <p> === Bsic Example Of Form ===</p>
-      <br />
-      <br />
       <Form>
         <Form.Group controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
