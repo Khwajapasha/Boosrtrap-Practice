@@ -23,6 +23,18 @@ export const FormSizing = () => {
           <option>Large select</option>
         </Form.Control>
         <br />
+        === Default OR Medium form as Select ===
+        <br />
+        <Form.Control as="select">
+          <option>Default select</option>
+        </Form.Control>
+        <br />
+        === Small form as Select ===
+        <br />
+        <Form.Control as="select" size="sm">
+          <option>Small select</option>
+        </Form.Control>
+        <br />
       </Form.Group>
     </div>
   );
