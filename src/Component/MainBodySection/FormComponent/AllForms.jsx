@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { FormControlComp } from "./FormControlComp";
 import { FormBasic } from "./FormBasic";
 import { FormForChooseFile } from "./FormForChooseFile";
+import { FormSizing } from "./FormSizing";
 
 export const AllForms = () => {
   const [show, setShow] = useState(false);
@@ -13,6 +14,7 @@ export const AllForms = () => {
           <FormBasic />
           <FormControlComp />
           <FormForChooseFile />
+          <FormSizing />
         </div>
       )}
       <div className="mt-2">
