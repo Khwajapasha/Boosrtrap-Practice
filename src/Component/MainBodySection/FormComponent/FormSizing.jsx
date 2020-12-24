@@ -35,6 +35,13 @@ export const FormSizing = () => {
           <option>Small select</option>
         </Form.Control>
         <br />
+        === Readonly Form ===
+        <br />
+        <Form.Control
+          type="text"
+          placeholder="Readonly input here..."
+          readOnly
+        />
       </Form.Group>
     </div>
   );
