@@ -4,6 +4,7 @@ import { FormControlComp } from "./FormControlComp";
 import { FormBasic } from "./FormBasic";
 import { FormForChooseFile } from "./FormForChooseFile";
 import { FormSizing } from "./FormSizing";
+import { CheckBoxAndRedioButton } from "./CheckBoxAndRedioButton";
 
 export const AllForms = () => {
   const [show, setShow] = useState(false);
@@ -15,6 +16,7 @@ export const AllForms = () => {
           <FormControlComp />
           <FormForChooseFile />
           <FormSizing />
+          <CheckBoxAndRedioButton />
         </div>
       )}
       <div className="mt-2">
