@@ -6,11 +6,24 @@ export const FormSizing = () => {
       <br />
       === Large Form ===
       <br />
-      <Form.Control size="lg" type="text" placeholder="Large text" />
-      <br />
-      === Medium Form ===
-      <Form.Control size="md" type="text" placeholder="Large text" />
-      <br />
+      <Form.Group>
+        <Form.Control size="lg" type="text" placeholder="Large text" />
+        <br />
+        === Medium Form ===
+        <Form.Control size="md" type="text" placeholder="Large text" />
+        <br />
+        === Small Form ===
+        <Form.Control size="sm" type="text" placeholder="Large text" />
+        <br />
+      </Form.Group>
+      <Form.Group>
+        === Large form as select ===
+        <br />
+        <Form.Control as="select" size="lg">
+          <option>Large select</option>
+        </Form.Control>
+        <br />
+      </Form.Group>
     </div>
   );
 };
