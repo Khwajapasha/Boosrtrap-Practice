@@ -39,6 +39,14 @@ export const CheckBoxAndRedioButton = () => {
           </div>
         ))}
       </Form>
+      === CheckBox & Radio Button without label ===
+      <br />
+      <Form.Check aria-label="option 1" />
+      <Form.Check aria-label="option 2" />
+      <Form.Check aria-label="option 3" />
+      <Form.Check type="radio" aria-label="radio 1" />
+      <Form.Check type="radio" aria-label="radio 2" />
+      <Form.Check type="radio" aria-label="radio 3" />
     </div>
   );
 };
