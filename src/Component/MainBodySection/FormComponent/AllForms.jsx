@@ -6,6 +6,7 @@ import { FormForChooseFile } from "./FormForChooseFile";
 import { FormSizing } from "./FormSizing";
 import { CheckBoxAndRedioButton } from "./CheckBoxAndRedioButton";
 import { FormGridAndRow } from "./FormGridAndRow";
+import { FormHorizontol } from "./FormHorizontol";
 
 export const AllForms = () => {
   const [show, setShow] = useState(false);
@@ -19,6 +20,7 @@ export const AllForms = () => {
           <FormSizing />
           <CheckBoxAndRedioButton />
           <FormGridAndRow />
+          <FormHorizontol />
         </div>
       )}
       <div className="mt-2">
