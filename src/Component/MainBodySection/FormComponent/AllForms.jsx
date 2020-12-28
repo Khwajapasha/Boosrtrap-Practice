@@ -7,6 +7,7 @@ import { FormSizing } from "./FormSizing";
 import { CheckBoxAndRedioButton } from "./CheckBoxAndRedioButton";
 import { FormGridAndRow } from "./FormGridAndRow";
 import { FormHorizontol } from "./FormHorizontol";
+import { FormValidation } from "./FormValidation";
 
 export const AllForms = () => {
   const [show, setShow] = useState(false);
@@ -21,6 +22,7 @@ export const AllForms = () => {
           <CheckBoxAndRedioButton />
           <FormGridAndRow />
           <FormHorizontol />
+          <FormValidation />
         </div>
       )}
       <div className="mt-2">
