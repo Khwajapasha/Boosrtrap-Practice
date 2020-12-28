@@ -84,9 +84,7 @@ export const FormValidation = () => {
             feedback="You must agree before submitting."
           />
         </Form.Group>
-        <Button type="submit" onClick={handleSubmit}>
-          Submit form
-        </Button>
+        <Button onClick={handleSubmit}>Submit form</Button>
       </Form>
     </div>
   );
