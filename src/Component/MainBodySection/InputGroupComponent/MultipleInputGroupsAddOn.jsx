@@ -4,6 +4,8 @@ export const MultipleInputGroupsAddOn = () => {
   return (
     <div>
       <div>
+        <br />
+        === Multiple Input Group ===
         <InputGroup className="mb-3">
           <InputGroup.Prepend>
             <InputGroup.Text>First and last name</InputGroup.Text>
@@ -13,6 +15,8 @@ export const MultipleInputGroupsAddOn = () => {
         </InputGroup>
       </div>
       <div>
+        <bbr />
+        === Multiple Add Ons ===
         <InputGroup className="mb-3">
           <InputGroup.Prepend>
             <InputGroup.Text>$</InputGroup.Text>
