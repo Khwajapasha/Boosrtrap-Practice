@@ -1,5 +1,9 @@
 import React from "react";
-
+import { InputGroupBasicExample } from "./InputGroupBasicExample";
 export const AllInputGroups = () => {
-  return <div></div>;
+  return (
+    <div>
+      <InputGroupBasicExample />
+    </div>
+  );
 };
