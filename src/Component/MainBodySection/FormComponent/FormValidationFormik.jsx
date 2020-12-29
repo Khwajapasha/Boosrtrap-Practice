@@ -1,33 +1,25 @@
 import React from "react";
 import { Formik } from "formik";
-import { string as yupString, object as yupObject } from "yup";
+import * as yup from "yup";
 import { Form, Button, InputGroup, Col } from "react-bootstrap";
 
-const validationSchema = yupObject().shape({
-  FirstName: yupString()
-    .min(3, "Too short")
-    .max(20, "Too long")
-    .required("First name is required"),
-  MiddleName: yupString()
-    .max(20, "Too long")
-    .required("Middle name is required"),
-  LastName: yupString()
-    .min(3, "Too short")
-
-    .required("Last name is required"),
-
-  EmailId: yupString()
-    .email("Enter valid E-mail address")
-    .required("E-mail address is required"),
+const schema = yup.object({
+  firstName: yup.string().required(),
+  lastName: yup.string().required(),
+  username: yup.string().required(),
+  city: yup.string().required(),
+  state: yup.string().required(),
+  zip: yup.string().required(),
+  terms: yup.string().required(),
 });
 
 export const FormValidationFormik = () => {
   return (
     <div>
       <br />
-      === Validation Using Formik ===
+      === Validation Using Formik & Yup ===
       <Formik
-        validationSchema={validationSchema}
+        validationSchema={schema}
         onSubmit={console.log}
         initialValues={{
           firstName: "Mark",
@@ -52,6 +44,7 @@ export const FormValidationFormik = () => {
                   name="firstName"
                   value={values.firstName}
                   onChange={handleChange}
+                  onBlur={handleBlur}
                   isValid={touched.firstName && !errors.firstName}
                 />
                 <Form.Control.Feedback>Looks good!</Form.Control.Feedback>
