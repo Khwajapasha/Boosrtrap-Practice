@@ -3,6 +3,9 @@ import { InputGroup, FormControl } from "react-bootstrap";
 export const InputGroupBasicExample = () => {
   return (
     <div>
+      <br />
+      <br />
+      === Baisc Example Of input Group ===
       <InputGroup className="mb-3">
         <InputGroup.Prepend>
           <InputGroup.Text id="basic-addon1">@</InputGroup.Text>
@@ -13,7 +16,6 @@ export const InputGroupBasicExample = () => {
           aria-describedby="basic-addon1"
         />
       </InputGroup>
-
       <InputGroup className="mb-3">
         <FormControl
           placeholder="Recipient's username"
@@ -24,7 +26,6 @@ export const InputGroupBasicExample = () => {
           <InputGroup.Text id="basic-addon2">@example.com</InputGroup.Text>
         </InputGroup.Append>
       </InputGroup>
-
       <label htmlFor="basic-url">Your vanity URL</label>
       <InputGroup className="mb-3">
         <InputGroup.Prepend>
@@ -34,7 +35,6 @@ export const InputGroupBasicExample = () => {
         </InputGroup.Prepend>
         <FormControl id="basic-url" aria-describedby="basic-addon3" />
       </InputGroup>
-
       <InputGroup className="mb-3">
         <InputGroup.Prepend>
           <InputGroup.Text>$</InputGroup.Text>
@@ -44,7 +44,6 @@ export const InputGroupBasicExample = () => {
           <InputGroup.Text>.00</InputGroup.Text>
         </InputGroup.Append>
       </InputGroup>
-
       <InputGroup>
         <InputGroup.Prepend>
           <InputGroup.Text>With textarea</InputGroup.Text>
