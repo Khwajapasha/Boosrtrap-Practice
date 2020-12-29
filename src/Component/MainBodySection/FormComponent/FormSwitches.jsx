@@ -4,7 +4,7 @@ export const FormSwitches = () => {
   return (
     <div>
       <br />
-      === Switch Buttons ===
+      === Switch Buttons also u can use &lt;Form.switch&gt; ===
       <Form>
         <Form.Check
           type="switch"

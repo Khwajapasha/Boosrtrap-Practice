@@ -9,6 +9,7 @@ import { AllCards } from "./CardsComponent/AllCards";
 import { AllCarousel } from "./CarouselsComponent/AllCarousel";
 import { AllDropDown } from "./DropDownComponent/AllDropDown";
 import { AllForms } from "./FormComponent/AllForms";
+import { AllInputGroups } from "./InputGroupComponent/AllInputGroups";
 export const MainBodySection = () => {
   return (
     <div>
@@ -22,6 +23,7 @@ export const MainBodySection = () => {
       <AllCarousel />
       <AllDropDown />
       <AllForms />
+      <AllInputGroups />
     </div>
   );
 };
