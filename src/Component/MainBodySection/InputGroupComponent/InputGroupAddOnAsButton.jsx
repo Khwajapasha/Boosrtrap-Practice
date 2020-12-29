@@ -1,17 +1,18 @@
 import React from "react";
 import { InputGroup, FormControl, Button } from "react-bootstrap";
 
-export const AddOnAsButton = () => {
+export const InputGroupAddOnAsButton = () => {
   return (
     <div>
       <div>
+        <br />
+        === Add On as A Button ===
         <InputGroup className="mb-3">
           <InputGroup.Prepend>
             <Button variant="outline-secondary">Button</Button>
           </InputGroup.Prepend>
           <FormControl aria-describedby="basic-addon1" />
         </InputGroup>
-
         <InputGroup className="mb-3">
           <FormControl
             placeholder="Recipient's username"
@@ -22,7 +23,6 @@ export const AddOnAsButton = () => {
             <Button variant="outline-secondary">Button</Button>
           </InputGroup.Append>
         </InputGroup>
-
         <InputGroup className="mb-3">
           <InputGroup.Prepend>
             <Button variant="outline-secondary">Button</Button>
@@ -30,7 +30,6 @@ export const AddOnAsButton = () => {
           </InputGroup.Prepend>
           <FormControl aria-describedby="basic-addon1" />
         </InputGroup>
-
         <InputGroup>
           <FormControl
             placeholder="Recipient's username"

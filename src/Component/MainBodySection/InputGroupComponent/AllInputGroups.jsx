@@ -1,21 +1,27 @@
 import React, { useState } from "react";
 import { Button } from "react-bootstrap";
-import { AddOnAsButton } from "./AddOnAsButton";
+import { InputGroupAddOnAsButton } from "./InputGroupAddOnAsButton";
 import { InputGroupBasicExample } from "./InputGroupBasicExample";
 import { InputGroupSizing } from "./InputGroupSizing";
 import { MultipleInputGroupsAddOn } from "./MultipleInputGroupsAddOn";
+import { InputGroupAddOnAsDropDown } from "./InputGroupAddOnAsDropDown";
 export const AllInputGroups = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
+      {show && (
+        <div>
+          <InputGroupBasicExample />
+          <InputGroupSizing />
+          <MultipleInputGroupsAddOn />
+          <InputGroupAddOnAsButton />
+          <InputGroupAddOnAsDropDown />
+        </div>
+      )}
       <div>
-        <InputGroupBasicExample />
-        <InputGroupSizing />
-        <MultipleInputGroupsAddOn />
-        <AddOnAsButton />
-      </div>
-      <div>
-        <Button onClick={() => setShow(!show)}>Load all input groups</Button>
+        <Button onClick={() => setShow(!show)} className="mt-2">
+          Load all input groups
+        </Button>
       </div>
     </React.Fragment>
   );
