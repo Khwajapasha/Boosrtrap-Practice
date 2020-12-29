@@ -10,6 +10,7 @@ import { FormHorizontol } from "./FormHorizontol";
 import { FormValidation } from "./FormValidation";
 import { FormValidationFormik } from "./FormValidationFormik";
 import { FormValidationTooltips } from "./FormValidationTooltips";
+import { FormSwitches } from "./FormSwitches";
 
 export const AllForms = () => {
   const [show, setShow] = useState(false);
@@ -27,6 +28,7 @@ export const AllForms = () => {
           <FormValidation />
           <FormValidationFormik />
           <FormValidationTooltips />
+          <FormSwitches />
         </div>
       )}
 
