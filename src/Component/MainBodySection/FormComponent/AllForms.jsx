@@ -9,6 +9,7 @@ import { FormGridAndRow } from "./FormGridAndRow";
 import { FormHorizontol } from "./FormHorizontol";
 import { FormValidation } from "./FormValidation";
 import { FormValidationFormik } from "./FormValidationFormik";
+import { FormValidationTooltips } from "./FormValidationTooltips";
 
 export const AllForms = () => {
   const [show, setShow] = useState(false);
@@ -25,8 +26,10 @@ export const AllForms = () => {
           <FormHorizontol />
           <FormValidation />
           <FormValidationFormik />
+          <FormValidationTooltips />
         </div>
       )}
+
       <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load All Form</Button>
       </div>
