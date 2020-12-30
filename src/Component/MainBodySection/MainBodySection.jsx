@@ -10,6 +10,7 @@ import { AllCarousel } from "./CarouselsComponent/AllCarousel";
 import { AllDropDown } from "./DropDownComponent/AllDropDown";
 import { AllForms } from "./FormComponent/AllForms";
 import { AllInputGroups } from "./InputGroupComponent/AllInputGroups";
+import { AllImages } from "./ImagesComponent/AllImages";
 export const MainBodySection = () => {
   return (
     <div>
@@ -24,6 +25,7 @@ export const MainBodySection = () => {
       <AllDropDown />
       <AllForms />
       <AllInputGroups />
+      <AllImages />
     </div>
   );
 };
