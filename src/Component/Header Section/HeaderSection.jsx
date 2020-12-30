@@ -1,10 +1,9 @@
-import React from 'react';
-import { MainPageHeader } from "./MainPageHeader";
+import React from "react";
+import { AllJumbotron } from "./JumbotronComponent/AllJumbotron";
 export const HeaderSection = () => {
-    return (
-        <div>
-            <MainPageHeader/>
-        </div>
-    );
+  return (
+    <div>
+      <AllJumbotron />
+    </div>
+  );
 };
-
