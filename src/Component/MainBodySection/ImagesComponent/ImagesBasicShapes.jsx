@@ -3,6 +3,8 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 export const ImagesBasicShapes = () => {
   return (
     <Container className="mt-2">
+      <br />
+      === By Using Image Tag ===
       <Row>
         <Col xs={12} sm={8} md={4} lg={4}>
           <Image
