@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 export const ImagesBasicShapes = () => {
   return (
-    <Container>
+    <Container className="mt-2">
       <Row>
         <Col xs={12} sm={8} md={4} lg={4}>
           <Image
