@@ -1,6 +1,5 @@
 import React from "react";
 import { Jumbotron, Button, Image } from "react-bootstrap";
-import "react-animated-slider/build/horizontal.css";
 export const JumbotronBasicExample = () => {
   return (
     <div>
