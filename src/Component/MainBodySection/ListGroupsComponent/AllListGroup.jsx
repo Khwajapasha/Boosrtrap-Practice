@@ -7,9 +7,10 @@ import { ListGroupActionableItem } from "./ListGroupActionableItem";
 import { ListGroupHorizontal } from "./ListGroupHorizontal";
 import { ListGroupResponsiveHorizotalView } from "./ListGroupResponsiveHorizotalView";
 import { ListGroupVariant } from "./ListGroupVariant";
+import { ListGroupTabbedInterface } from "./ListGroupTabbedInterface";
 export const AllListGroup = () => {
   return (
-    <div className="mt-2">
+    <div className="mt-2 ml-4">
       <Row>
         <LIstGroupBasicExample />
         <ListGroupsActiveItem />
@@ -18,6 +19,7 @@ export const AllListGroup = () => {
         <ListGroupHorizontal />
         <ListGroupResponsiveHorizotalView />
         <ListGroupVariant />
+        <ListGroupTabbedInterface />
       </Row>
     </div>
   );
