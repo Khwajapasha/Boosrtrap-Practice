@@ -8,10 +8,10 @@ export const ListGroupActionableItem = () => {
     <div>
       <ListGroup defaultActiveKey="#link1">
         <ListGroup.Item action href="#link1">
-          Link 1
+          Link 1 this is the
         </ListGroup.Item>
         <ListGroup.Item action href="#link2" disabled>
-          Link 2
+          Link 2 actionable comonent
         </ListGroup.Item>
         <ListGroup.Item action onClick={handleClick}>
           Click to view action

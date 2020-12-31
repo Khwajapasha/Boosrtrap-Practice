@@ -4,9 +4,9 @@ export const LIstGroupBasicExample = () => {
   return (
     <div>
       <ListGroup style={{ width: "20rem" }}>
-        <ListGroup.Item>Cras justo odio</ListGroup.Item>
-        <ListGroup.Item>Dapibus ac facilisis in</ListGroup.Item>
-        <ListGroup.Item>Morbi leo risus</ListGroup.Item>
+        <ListGroup.Item>This is the</ListGroup.Item>
+        <ListGroup.Item>Basic example </ListGroup.Item>
+        <ListGroup.Item>of ListGroup</ListGroup.Item>
         <ListGroup.Item>Porta ac consectetur ac</ListGroup.Item>
         <ListGroup.Item>Vestibulum at eros</ListGroup.Item>
       </ListGroup>

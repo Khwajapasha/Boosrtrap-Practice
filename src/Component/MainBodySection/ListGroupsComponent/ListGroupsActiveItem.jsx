@@ -5,7 +5,7 @@ export const ListGroupsActiveItem = () => {
     <div>
       <ListGroup as="ul" style={{ width: "20rem" }}>
         <ListGroup.Item as="li" active>
-          Cras justo odio
+          This is the active item
         </ListGroup.Item>
         <ListGroup.Item as="li">Dapibus ac facilisis in</ListGroup.Item>
         <ListGroup.Item as="li" disabled>
