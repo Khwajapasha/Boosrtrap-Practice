@@ -1,5 +1,5 @@
-import React from "react";
-import { Row } from "react-bootstrap";
+import React, { useState } from "react";
+import { Row, Button } from "react-bootstrap";
 import { LIstGroupBasicExample } from "./LIstGroupBasicExample";
 import { ListGroupsActiveItem } from "./ListGroupsActiveItem";
 import { ListGroupDisabledItem } from "./ListGroupDisabledItem";
@@ -9,18 +9,26 @@ import { ListGroupResponsiveHorizotalView } from "./ListGroupResponsiveHorizotal
 import { ListGroupVariant } from "./ListGroupVariant";
 import { ListGroupTabbedInterface } from "./ListGroupTabbedInterface";
 export const AllListGroup = () => {
+  const [show, setShow] = useState(false);
   return (
-    <div className="mt-2 ml-4">
-      <Row>
-        <LIstGroupBasicExample />
-        <ListGroupsActiveItem />
-        <ListGroupDisabledItem />
-        <ListGroupActionableItem />
-        <ListGroupHorizontal />
-        <ListGroupResponsiveHorizotalView />
-        <ListGroupVariant />
-        <ListGroupTabbedInterface />
-      </Row>
-    </div>
+    <React.Fragment>
+      {show && (
+        <div className="mt-2 ml-4">
+          <Row>
+            <LIstGroupBasicExample />
+            <ListGroupsActiveItem />
+            <ListGroupDisabledItem />
+            <ListGroupActionableItem />
+            <ListGroupHorizontal />
+            <ListGroupResponsiveHorizotalView />
+            <ListGroupVariant />
+            <ListGroupTabbedInterface />
+          </Row>
+        </div>
+      )}
+      <div>
+        <Button onClick={() => setShow(!show)}>Load all List Group</Button>
+      </div>
+    </React.Fragment>
   );
 };

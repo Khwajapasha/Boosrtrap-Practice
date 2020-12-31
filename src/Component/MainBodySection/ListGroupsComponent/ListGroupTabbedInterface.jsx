@@ -8,7 +8,7 @@ export const ListGroupTabbedInterface = () => {
       <h2>Tab Interface in List Group</h2>
       <Tab.Container id="list-group-tabs-example" defaultActiveKey="#link1">
         <Row>
-          <Col sm={4}>
+          <Col sm={6}>
             <ListGroup>
               <ListGroup.Item action href="#link1">
                 Link 1
@@ -18,7 +18,7 @@ export const ListGroupTabbedInterface = () => {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col sm={8}>
+          <Col sm={6}>
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <FigureImage />

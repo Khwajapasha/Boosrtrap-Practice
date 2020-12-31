@@ -12,6 +12,7 @@ import { AllForms } from "./FormComponent/AllForms";
 import { AllInputGroups } from "./InputGroupComponent/AllInputGroups";
 import { AllImages } from "./ImagesComponent/AllImages";
 import { AllListGroup } from "./ListGroupsComponent/AllListGroup";
+import { AllModal } from "./ModalComponent/AllModal";
 export const MainBodySection = () => {
   return (
     <div>
@@ -28,6 +29,7 @@ export const MainBodySection = () => {
       <AllInputGroups />
       <AllImages />
       <AllListGroup />
+      <AllModal />
     </div>
   );
 };
