@@ -6,6 +6,7 @@ import { ListGroupDisabledItem } from "./ListGroupDisabledItem";
 import { ListGroupActionableItem } from "./ListGroupActionableItem";
 import { ListGroupHorizontal } from "./ListGroupHorizontal";
 import { ListGroupResponsiveHorizotalView } from "./ListGroupResponsiveHorizotalView";
+import { ListGroupVariant } from "./ListGroupVariant";
 export const AllListGroup = () => {
   return (
     <div className="mt-2">
@@ -14,10 +15,9 @@ export const AllListGroup = () => {
         <ListGroupsActiveItem />
         <ListGroupDisabledItem />
         <ListGroupActionableItem />
-      </Row>
-      <Row>
         <ListGroupHorizontal />
         <ListGroupResponsiveHorizotalView />
+        <ListGroupVariant />
       </Row>
     </div>
   );
