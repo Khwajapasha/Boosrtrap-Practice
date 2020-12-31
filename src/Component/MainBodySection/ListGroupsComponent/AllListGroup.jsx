@@ -26,7 +26,7 @@ export const AllListGroup = () => {
           </Row>
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load all List Group</Button>
       </div>
     </React.Fragment>

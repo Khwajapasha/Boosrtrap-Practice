@@ -3,6 +3,8 @@ import { Modal, Button } from "react-bootstrap";
 export const ModalBasicExample = () => {
   return (
     <div>
+      <br />
+      === Basic Example Of Modal ===
       <Modal.Dialog>
         <Modal.Header closeButton>
           <Modal.Title>Modal title</Modal.Title>
