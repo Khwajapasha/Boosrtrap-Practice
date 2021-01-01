@@ -3,6 +3,7 @@ import { ModalBasicExample } from "./ModalBasicExample";
 import { ModalFunctionalClickable } from "./ModalFunctionalClickable";
 import { ModalStaticBackdrop } from "./ModalStaticBackdrop";
 import { ModalWithoutAnimation } from "./ModalWithoutAnimation";
+import { ParentVerticallyCentered } from "./ModalVerticallyAlignCenter/ParentVerticallyCentered";
 
 export const AllModal = () => {
   return (
@@ -11,6 +12,7 @@ export const AllModal = () => {
       <ModalFunctionalClickable />
       <ModalStaticBackdrop />
       <ModalWithoutAnimation />
+      <ParentVerticallyCentered />
     </div>
   );
 };
