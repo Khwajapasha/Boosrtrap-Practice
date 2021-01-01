@@ -5,6 +5,7 @@ import { ModalStaticBackdrop } from "./ModalStaticBackdrop";
 import { ModalWithoutAnimation } from "./ModalWithoutAnimation";
 import { ModalVerticallyCenter } from "./ModalVerticallyAlignCenter/ModalVerticallyCenter";
 import { ModalWithGrid } from "./ModalWithGrid/ModalWithGrid";
+import { ModalOptionalSize } from "./ModalOptionalSize";
 
 export const AllModal = () => {
   return (
@@ -15,6 +16,7 @@ export const AllModal = () => {
       <ModalWithoutAnimation />
       <ModalVerticallyCenter />
       <ModalWithGrid />
+      <ModalOptionalSize />
     </div>
   );
 };
