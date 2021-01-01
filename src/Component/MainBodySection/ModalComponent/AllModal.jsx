@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useState } from "react";
+import { Button } from "react-bootstrap";
 import { ModalBasicExample } from "./ModalBasicExample";
 import { ModalFunctionalClickable } from "./ModalFunctionalClickable";
 import { ModalStaticBackdrop } from "./ModalStaticBackdrop";
@@ -8,15 +9,23 @@ import { ModalWithGrid } from "./ModalWithGrid/ModalWithGrid";
 import { ModalOptionalSize } from "./ModalOptionalSize";
 
 export const AllModal = () => {
+  const [show, setShow] = useState(false);
   return (
-    <div>
-      <ModalBasicExample />
-      <ModalFunctionalClickable />
-      <ModalStaticBackdrop />
-      <ModalWithoutAnimation />
-      <ModalVerticallyCenter />
-      <ModalWithGrid />
-      <ModalOptionalSize />
-    </div>
+    <React.Fragment>
+      {show && (
+        <div>
+          <ModalBasicExample />
+          <ModalFunctionalClickable />
+          <ModalStaticBackdrop />
+          <ModalWithoutAnimation />
+          <ModalVerticallyCenter />
+          <ModalWithGrid />
+          <ModalOptionalSize />
+        </div>
+      )}
+      <div className="mt-2">
+        <Button onClick={() => setShow(!show)}>Load All Modals</Button>
+      </div>
+    </React.Fragment>
   );
 };

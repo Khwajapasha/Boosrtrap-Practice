@@ -13,6 +13,7 @@ import { AllInputGroups } from "./InputGroupComponent/AllInputGroups";
 import { AllImages } from "./ImagesComponent/AllImages";
 import { AllListGroup } from "./ListGroupsComponent/AllListGroup";
 import { AllModal } from "./ModalComponent/AllModal";
+import { AllNavs } from "./NavsComponent/AllNavs";
 export const MainBodySection = () => {
   return (
     <div>
@@ -30,6 +31,7 @@ export const MainBodySection = () => {
       <AllImages />
       <AllListGroup />
       <AllModal />
+      <AllNavs />
     </div>
   );
 };
