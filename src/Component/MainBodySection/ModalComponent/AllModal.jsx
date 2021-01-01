@@ -2,6 +2,7 @@ import React from "react";
 import { ModalBasicExample } from "./ModalBasicExample";
 import { ModalFunctionalClickable } from "./ModalFunctionalClickable";
 import { ModalStaticBackdrop } from "./ModalStaticBackdrop";
+import { ModalWithoutAnimation } from "./ModalWithoutAnimation";
 
 export const AllModal = () => {
   return (
@@ -9,6 +10,7 @@ export const AllModal = () => {
       <ModalBasicExample />
       <ModalFunctionalClickable />
       <ModalStaticBackdrop />
+      <ModalWithoutAnimation />
     </div>
   );
 };
