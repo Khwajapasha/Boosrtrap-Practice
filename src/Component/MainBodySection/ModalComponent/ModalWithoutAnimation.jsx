@@ -8,7 +8,7 @@ export const ModalWithoutAnimation = () => {
   const handleShow = () => setShow(true);
   return (
     <div>
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" onClick={handleShow} className="mt-2">
         Launch demo modal
       </Button>
 

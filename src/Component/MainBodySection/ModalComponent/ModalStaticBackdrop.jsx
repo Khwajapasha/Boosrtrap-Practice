@@ -7,7 +7,7 @@ export const ModalStaticBackdrop = () => {
   const handleShow = () => setShow(true);
   return (
     <div className="mt-2">
-      <Button variant="primary" onClick={handleShow}>
+      <Button variant="primary" onClick={handleShow} className="mt-2">
         Launch static backdrop modal
       </Button>
 
