@@ -29,6 +29,10 @@ const NavigationBar = () => {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Form className="mr-2px">
+            <FormControl placeholder="Rehan" />
+          </Form>
+          <Button>Search</Button>
         </Navbar.Collapse>
       </Navbar>
     </div>
