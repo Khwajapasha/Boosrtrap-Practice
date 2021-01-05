@@ -2,8 +2,10 @@ import React from "react";
 import { Nav } from "react-bootstrap";
 export const NavAlignment = () => {
   return (
-    <div>
-      <Nav className="justify-content-center" activeKey="/home">
+    <div className="mt-2">
+      <h4> === Nav Center Aligned ===</h4>
+      <br />
+      <Nav className="justify-content-center mt-2" activeKey="/home">
         <Nav.Item>
           <Nav.Link href="/home">Active</Nav.Link>
         </Nav.Item>
