@@ -5,6 +5,7 @@ import { NavsAsLi } from "./NavsAsLi";
 import { NavVerticalAlignment } from "./NavVerticalAlignment";
 import { NavAsTab } from "./NavAsTab";
 import { NavAsPills } from "./NavAsPills";
+import { NavFillAndJustifyContentVariable } from "./NavFillAndJustifyContentVariable";
 
 export const AllNavs = () => {
   return (
@@ -15,6 +16,7 @@ export const AllNavs = () => {
       <NavVerticalAlignment />
       <NavAsTab />
       <NavAsPills />
+      <NavFillAndJustifyContentVariable />
     </div>
   );
 };
