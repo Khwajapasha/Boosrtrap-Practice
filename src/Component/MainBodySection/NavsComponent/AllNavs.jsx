@@ -3,6 +3,7 @@ import { NavAlignment } from "./NavAlignment";
 import { NavBasicExample } from "./NavBasicExample";
 import { NavsAsLi } from "./NavsAsLi";
 import { NavVerticalAlignment } from "./NavVerticalAlignment";
+import { NavAsTab } from "./NavAsTab";
 
 export const AllNavs = () => {
   return (
@@ -11,6 +12,7 @@ export const AllNavs = () => {
       <NavsAsLi />
       <NavAlignment />
       <NavVerticalAlignment />
+      <NavAsTab />
     </div>
   );
 };
