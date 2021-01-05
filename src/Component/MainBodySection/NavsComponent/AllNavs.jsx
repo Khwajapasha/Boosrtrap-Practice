@@ -2,6 +2,7 @@ import React from "react";
 import { NavAlignment } from "./NavAlignment";
 import { NavBasicExample } from "./NavBasicExample";
 import { NavsAsLi } from "./NavsAsLi";
+import { NavVerticalAlignment } from "./NavVerticalAlignment";
 
 export const AllNavs = () => {
   return (
@@ -9,6 +10,7 @@ export const AllNavs = () => {
       <NavBasicExample />
       <NavsAsLi />
       <NavAlignment />
+      <NavVerticalAlignment />
     </div>
   );
 };
