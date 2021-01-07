@@ -1,5 +1,12 @@
 import React from "react";
-import { Navbar, Nav, NavDropdown } from "react-bootstrap";
+import {
+  Navbar,
+  Nav,
+  NavDropdown,
+  Form,
+  FormControl,
+  Button,
+} from "react-bootstrap";
 export const NavbarBasicExample = () => {
   return (
     <div>
@@ -20,6 +27,10 @@ export const NavbarBasicExample = () => {
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
+          <Form inline>
+            <FormControl placeholder="Search" className="mr-sm-2" />
+            <Button variant="outline-success">Search</Button>
+          </Form>
         </Navbar.Collapse>
       </Navbar>
     </div>
