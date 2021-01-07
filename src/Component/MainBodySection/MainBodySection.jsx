@@ -15,6 +15,7 @@ import { AllListGroup } from "./ListGroupsComponent/AllListGroup";
 import { AllModal } from "./ModalComponent/AllModal";
 import { AllNavs } from "./NavsComponent/AllNavs";
 import { AllNavbar } from "./NavbarComponent/AllNavbar";
+import { AllOverlay } from "./OverlayComponent/AllOverlay";
 export const MainBodySection = () => {
   return (
     <div>
@@ -34,6 +35,7 @@ export const MainBodySection = () => {
       <AllModal />
       <AllNavs />
       <AllNavbar />
+      <AllOverlay />
     </div>
   );
 };
