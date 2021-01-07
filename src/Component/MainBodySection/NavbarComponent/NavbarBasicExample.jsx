@@ -10,7 +10,9 @@ import {
 export const NavbarBasicExample = () => {
   return (
     <div>
-      <Navbar bg="light" expand="lg">
+      <br />
+      <h4>=== Basic Example of Navbar ===</h4>
+      <Navbar bg="light" expand="lg" sticky="top">
         <Navbar.Brand href="#home">Navbar Basic Example</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
