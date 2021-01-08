@@ -16,6 +16,7 @@ import { AllModal } from "./ModalComponent/AllModal";
 import { AllNavs } from "./NavsComponent/AllNavs";
 import { AllNavbar } from "./NavbarComponent/AllNavbar";
 import { AllOverlay } from "./OverlayComponent/AllOverlay";
+import { AllPopover } from "./PopoverComponent/AllPopover";
 export const MainBodySection = () => {
   return (
     <div>
@@ -36,6 +37,7 @@ export const MainBodySection = () => {
       <AllNavs />
       <AllNavbar />
       <AllOverlay />
+      <AllPopover />
     </div>
   );
 };
