@@ -1,5 +1,5 @@
 import React from "react";
-import { Popover, Button, OverlayTrigger } from "react-bootstrap";
+import { Popover, Button, OverlayTrigger, Tooltip } from "react-bootstrap";
 export const PopoverBasicExample = () => {
   const popover = (
     <Popover id="popover-basic">
@@ -18,8 +18,19 @@ export const PopoverBasicExample = () => {
       <OverlayTrigger trigger="click" placement="right" overlay={popover}>
         <Button variant="success">Click me to see</Button>
       </OverlayTrigger>
+      <br />
+      <br />
+      <br />
+      <h4>Disabled Button</h4>
+      <OverlayTrigger
+        overlay={<Tooltip id="tooltip-disabled">Tooltip!</Tooltip>}
+      >
+        <span className="d-inline-block">
+          <Button disabled style={{ pointerEvents: "none" }}>
+            Disabled button
+          </Button>
+        </span>
+      </OverlayTrigger>
     </div>
   );
 };
-
-export default PopoverBasicExample;
