@@ -13,15 +13,15 @@ export const PaginationBasicExample = () => {
   return (
     <div>
       <br />
-      <h4 style={{ float: "left" }}>=== Basic Example Of Pagination ===</h4>
+      <h4>=== Basic Example Of Pagination ===</h4>
       <br />
-      <div style={{ float: "left" }}>
-        <Pagination size="lg">{items}</Pagination>
-        <br />
-        <Pagination>{items}</Pagination>
-        <br />
-        <Pagination size="sm">{items}</Pagination>
-      </div>
+      <br />
+
+      <Pagination size="lg">{items}</Pagination>
+      <br />
+      <Pagination>{items}</Pagination>
+      <br />
+      <Pagination size="sm">{items}</Pagination>
     </div>
   );
 };
