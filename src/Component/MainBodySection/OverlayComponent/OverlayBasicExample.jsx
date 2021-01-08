@@ -5,6 +5,9 @@ export const OverlayBasicExample = () => {
   const target = useRef(null);
   return (
     <div>
+      <br />
+      === Click to see overlay ===
+      <br />
       <Button variant="danger" ref={target} onClick={() => setShow(!show)}>
         Click me to see
       </Button>

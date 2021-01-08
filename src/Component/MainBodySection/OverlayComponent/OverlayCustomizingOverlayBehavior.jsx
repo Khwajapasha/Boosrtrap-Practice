@@ -3,6 +3,9 @@ import { OverlayTrigger, Image, Button, Tooltip } from "react-bootstrap";
 export const OverlayCustomizingOverlayBehavior = () => {
   return (
     <div>
+      <br />
+      === Customized Overlay ===
+      <br />
       <OverlayTrigger
         placement="top"
         overlay={<Tooltip id="button-tooltip-2">Check out this avatar</Tooltip>}

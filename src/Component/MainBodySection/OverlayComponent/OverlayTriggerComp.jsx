@@ -8,6 +8,9 @@ export const OverlayTriggerComp = () => {
   );
   return (
     <div>
+      <br />
+      === Hover to see overlay ===
+      <br />
       <OverlayTrigger
         placement="right"
         delay={{ show: 250, hide: 400 }}

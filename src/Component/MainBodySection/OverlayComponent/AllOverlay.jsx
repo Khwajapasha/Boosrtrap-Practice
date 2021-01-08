@@ -3,6 +3,7 @@ import { Button } from "react-bootstrap";
 import { OverlayBasicExample } from "./OverlayBasicExample";
 import { OverlayTriggerComp } from "./OverlayTriggerComp";
 import { OverlayCustomizingOverlayBehavior } from "./OverlayCustomizingOverlayBehavior";
+import { OverlayTooltip } from "./OverlayTooltip";
 
 export const AllOverlay = () => {
   const [show, setShow] = useState(false);
@@ -13,6 +14,7 @@ export const AllOverlay = () => {
           <OverlayBasicExample />
           <OverlayTriggerComp />
           <OverlayCustomizingOverlayBehavior />
+          <OverlayTooltip />
         </div>
       )}
       <div className="mt-2">
