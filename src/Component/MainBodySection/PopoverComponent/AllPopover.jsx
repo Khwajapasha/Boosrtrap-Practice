@@ -16,7 +16,7 @@ export const AllPopover = () => {
           <PopoverUpdatingPositionDynamically />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load All Popovers</Button>
       </div>
     </React.Fragment>
