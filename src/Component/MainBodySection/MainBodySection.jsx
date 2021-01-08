@@ -17,6 +17,7 @@ import { AllNavs } from "./NavsComponent/AllNavs";
 import { AllNavbar } from "./NavbarComponent/AllNavbar";
 import { AllOverlay } from "./OverlayComponent/AllOverlay";
 import { AllPopover } from "./PopoverComponent/AllPopover";
+import { AllPagination } from "./PaginationComponent/AllPagination";
 export const MainBodySection = () => {
   return (
     <div>
@@ -38,6 +39,7 @@ export const MainBodySection = () => {
       <AllNavbar />
       <AllOverlay />
       <AllPopover />
+      <AllPagination />
     </div>
   );
 };
