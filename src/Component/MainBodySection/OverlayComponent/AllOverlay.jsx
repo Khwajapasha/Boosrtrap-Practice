@@ -4,6 +4,7 @@ import { OverlayBasicExample } from "./OverlayBasicExample";
 import { OverlayTriggerComp } from "./OverlayTriggerComp";
 import { OverlayCustomizingOverlayBehavior } from "./OverlayCustomizingOverlayBehavior";
 import { OverlayTooltip } from "./OverlayTooltip";
+import { OverlayTooltipPositions } from "./OverlayTooltipPositions";
 
 export const AllOverlay = () => {
   const [show, setShow] = useState(false);
@@ -15,6 +16,7 @@ export const AllOverlay = () => {
           <OverlayTriggerComp />
           <OverlayCustomizingOverlayBehavior />
           <OverlayTooltip />
+          <OverlayTooltipPositions />
         </div>
       )}
       <div className="mt-2">
