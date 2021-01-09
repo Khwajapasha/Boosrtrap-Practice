@@ -5,7 +5,7 @@ export const ProgressBarWithLabel = () => {
 
   const progressInstance = <ProgressBar now={now} label={`${now}%`} />;
   return (
-    <div>
+    <div className="mt-4">
       <h4>=== ProgressBar With Label ===</h4>
       {progressInstance}
     </div>
