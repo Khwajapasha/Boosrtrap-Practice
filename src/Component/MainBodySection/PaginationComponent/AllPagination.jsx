@@ -13,7 +13,7 @@ export const AllPagination = () => {
           <PaginationMoreOption />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load All Pagination</Button>
       </div>
     </React.Fragment>
