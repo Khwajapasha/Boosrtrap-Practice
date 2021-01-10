@@ -4,6 +4,7 @@ import { ProgressBarContextualAlternative } from "./ProgressBarContextualAlterna
 import { ProgressBarScreenReadOnly } from "./ProgressBarScreenReadOnly";
 import { ProgressBarWithLabel } from "./ProgressBarWithLabel";
 import { ProgressBarStrippedVariant } from "./ProgressBarStrippedVariant";
+import { ProgressBarAnimated } from "./ProgressBarAnimated";
 
 export const AllProgressBar = () => {
   return (
@@ -13,6 +14,7 @@ export const AllProgressBar = () => {
       <ProgressBarScreenReadOnly />
       <ProgressBarContextualAlternative />
       <ProgressBarStrippedVariant />
+      <ProgressBarAnimated />
     </div>
   );
 };

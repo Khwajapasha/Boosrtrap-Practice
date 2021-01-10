@@ -4,7 +4,7 @@ export const ProgressBarContextualAlternative = () => {
   return (
     <div>
       <br />
-      === ProgressBar Contextual Alternative ===
+      <h4> === ProgressBar Contextual Alternative ===</h4>
       <br />
       <ProgressBar variant="success" now={40} className="mt-2" />
       <ProgressBar variant="info" now={20} className="mt-2" />

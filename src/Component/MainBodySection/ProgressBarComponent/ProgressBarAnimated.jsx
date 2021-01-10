@@ -3,7 +3,10 @@ import { ProgressBar } from "react-bootstrap";
 export const ProgressBarAnimated = () => {
   return (
     <div>
-      <ProgressBar animated now={45} />
+      <br />
+      <h4>=== ProgressBar Animated ===</h4>
+      <br />
+      <ProgressBar animated now={45} className="mt-2" />
     </div>
   );
 };
