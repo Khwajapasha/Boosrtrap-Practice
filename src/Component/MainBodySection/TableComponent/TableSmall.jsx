@@ -1,12 +1,13 @@
 import React from "react";
 import { Table } from "react-bootstrap";
-export const TableBasicExample = () => {
+export const TableSmall = () => {
   return (
     <div>
+      {" "}
       <br />
-      <h4>=== Basic Example Of Table ===</h4>
+      <h4>=== Small Size Table ===</h4>
       <br />
-      <Table striped bordered hover>
+      <Table striped bordered hover size="sm">
         <thead>
           <tr>
             <th>#</th>
