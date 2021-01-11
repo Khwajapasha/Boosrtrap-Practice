@@ -1,14 +1,13 @@
 import React from "react";
 import { SpinnerAnimation } from "./SpinnerAnimation";
 import { SpinnerBasicExample } from "./SpinnerBasicExample";
+import { SpinnerVariants } from "./SpinnerVariants";
 export const AllSpinners = () => {
   return (
     <div>
-      <br />
-      === Basic Example of Spinner ===
-      <br />
       <SpinnerBasicExample />
       <SpinnerAnimation />
+      <SpinnerVariants />
     </div>
   );
 };
