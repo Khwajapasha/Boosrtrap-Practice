@@ -18,7 +18,7 @@ export const AllSpinners = () => {
           <SnippersInButtons />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load All Spinners</Button>
       </div>
     </React.Fragment>

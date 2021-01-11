@@ -20,6 +20,7 @@ import { AllPopover } from "./PopoverComponent/AllPopover";
 import { AllPagination } from "./PaginationComponent/AllPagination";
 import { AllProgressBar } from "./ProgressBarComponent/AllProgressBar";
 import { AllSpinners } from "./SpinnersComponent/AllSpinners";
+import { AllTables } from "./TableComponent/AllTables";
 export const MainBodySection = () => {
   return (
     <div>
@@ -44,6 +45,7 @@ export const MainBodySection = () => {
       <AllPagination />
       <AllProgressBar />
       <AllSpinners />
+      <AllTables />
     </div>
   );
 };
