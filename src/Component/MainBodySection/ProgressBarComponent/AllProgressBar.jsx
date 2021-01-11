@@ -21,7 +21,7 @@ export const AllProgressBar = () => {
           <ProgressBarAnimated />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load All ProgressBar</Button>
       </div>
     </React.Fragment>
