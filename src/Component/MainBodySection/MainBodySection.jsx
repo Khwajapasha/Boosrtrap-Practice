@@ -19,6 +19,7 @@ import { AllOverlay } from "./OverlayComponent/AllOverlay";
 import { AllPopover } from "./PopoverComponent/AllPopover";
 import { AllPagination } from "./PaginationComponent/AllPagination";
 import { AllProgressBar } from "./ProgressBarComponent/AllProgressBar";
+import { AllSpinners } from "./SpinnersComponent/AllSpinners";
 export const MainBodySection = () => {
   return (
     <div>
@@ -42,6 +43,7 @@ export const MainBodySection = () => {
       <AllPopover />
       <AllPagination />
       <AllProgressBar />
+      <AllSpinners />
     </div>
   );
 };

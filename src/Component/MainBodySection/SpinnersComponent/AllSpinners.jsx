@@ -1,5 +1,5 @@
 import React from "react";
-import { SpinnerBasicExample } from "react-bootstrap";
+import { SpinnerBasicExample } from "./SpinnerBasicExample";
 export const AllSpinners = () => {
   return (
     <div>
