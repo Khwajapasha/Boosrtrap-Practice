@@ -1,4 +1,5 @@
 import React from "react";
+import { SnippersInButtons } from "./SnippersInButtons";
 import { SpinnerAnimation } from "./SpinnerAnimation";
 import { SpinnerBasicExample } from "./SpinnerBasicExample";
 import { SpinnerSizing } from "./SpinnerSizing";
@@ -10,6 +11,7 @@ export const AllSpinners = () => {
       <SpinnerAnimation />
       <SpinnerVariants />
       <SpinnerSizing />
+      <SnippersInButtons />
     </div>
   );
 };
