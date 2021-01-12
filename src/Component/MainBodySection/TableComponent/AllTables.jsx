@@ -18,7 +18,7 @@ export const AllTables = () => {
         <TableSpecificBreakPoint />
       </div>
       <div>
-        <Button>Load All Tables</Button>
+        <Button onclick={() => setShow(!show)}>Load All Tables</Button>
       </div>
     </React.Fragment>
   );
