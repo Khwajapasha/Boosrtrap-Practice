@@ -8,12 +8,15 @@ import { TableSpecificBreakPoint } from "./TableSpecificBreakPoint";
 export const AllTables = () => {
   const [show, setShow] = useState(false);
   return (
-    <div>
-      <TableBasicExample />
-      <TableSmall />
-      <TableDarkTheme />
-      <TableAlwaysResponsive />
-      <TableSpecificBreakPoint />
-    </div>
+    <React.Fragment>
+      <div>
+        <TableBasicExample />
+        <TableSmall />
+        <TableDarkTheme />
+        <TableAlwaysResponsive />
+        <TableSpecificBreakPoint />
+      </div>
+      <div></div>
+    </React.Fragment>
   );
 };
