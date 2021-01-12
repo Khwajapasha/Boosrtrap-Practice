@@ -3,6 +3,7 @@ import { TableBasicExample } from "./TableBasicExample";
 import { TableSmall } from "./TableSmall";
 import { TableDarkTheme } from "./TableDarkTheme";
 import { TableAlwaysResponsive } from "./TableAlwaysResponsive";
+import { TableSpecificBreakPoint } from "./TableSpecificBreakPoint";
 
 export const AllTables = () => {
   return (
@@ -11,6 +12,7 @@ export const AllTables = () => {
       <TableSmall />
       <TableDarkTheme />
       <TableAlwaysResponsive />
+      <TableSpecificBreakPoint />
     </div>
   );
 };
