@@ -20,7 +20,7 @@ export const AllTables = () => {
         </div>
       )}
       <div className="mt-2">
-        <Button onclick={() => setShow(!show)}>Load All Tables</Button>
+        <Button onClick={() => setShow(!show)}>Load All Tables</Button>
       </div>
     </React.Fragment>
   );
