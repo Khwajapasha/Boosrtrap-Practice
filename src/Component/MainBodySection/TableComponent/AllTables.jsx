@@ -10,13 +10,15 @@ export const AllTables = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
-      <div>
-        <TableBasicExample />
-        <TableSmall />
-        <TableDarkTheme />
-        <TableAlwaysResponsive />
-        <TableSpecificBreakPoint />
-      </div>
+      {show && (
+        <div>
+          <TableBasicExample />
+          <TableSmall />
+          <TableDarkTheme />
+          <TableAlwaysResponsive />
+          <TableSpecificBreakPoint />
+        </div>
+      )}
       <div>
         <Button onclick={() => setShow(!show)}>Load All Tables</Button>
       </div>
