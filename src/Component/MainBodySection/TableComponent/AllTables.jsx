@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Button } from "react-bootstrap";
 import { TableBasicExample } from "./TableBasicExample";
 import { TableSmall } from "./TableSmall";
 import { TableDarkTheme } from "./TableDarkTheme";
@@ -16,7 +17,9 @@ export const AllTables = () => {
         <TableAlwaysResponsive />
         <TableSpecificBreakPoint />
       </div>
-      <div></div>
+      <div>
+        <Button>Load All Tables</Button>
+      </div>
     </React.Fragment>
   );
 };
