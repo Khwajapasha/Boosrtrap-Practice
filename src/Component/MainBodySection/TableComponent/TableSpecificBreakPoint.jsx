@@ -4,7 +4,7 @@ export const TableSpecificBreakPoint = () => {
   return (
     <div>
       <br />
-      === Table Specific BreakPoint ===
+      <h4>=== Table Specific BreakPoint ===</h4>
       <br />
       <Table responsive="sm">
         <thead>
