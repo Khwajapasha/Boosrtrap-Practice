@@ -17,7 +17,7 @@ export const AllTabs = () => {
           <TabCustomLayout />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load All Tabs</Button>
       </div>
     </React.Fragment>
