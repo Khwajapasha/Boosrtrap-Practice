@@ -1,3 +1,4 @@
+import { Button } from "bootstrap";
 import React from "react";
 import { TabBasicExample } from "./TabBasicExample";
 import { TabControlled } from "./TabControlled";
@@ -6,11 +7,16 @@ import { TabWithoutAnimation } from "./TabWithoutAnimation";
 
 export const AllTabs = () => {
   return (
-    <div>
-      <TabBasicExample />
-      <TabControlled />
-      <TabWithoutAnimation />
-      <TabCustomLayout />
-    </div>
+    <React.Fragment>
+      <div>
+        <TabBasicExample />
+        <TabControlled />
+        <TabWithoutAnimation />
+        <TabCustomLayout />
+      </div>
+      <div>
+        <Button>Load All Tabs</Button>
+      </div>
+    </React.Fragment>
   );
 };
