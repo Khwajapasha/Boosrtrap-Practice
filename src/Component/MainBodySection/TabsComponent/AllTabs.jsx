@@ -9,12 +9,14 @@ export const AllTabs = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
-      <div>
-        <TabBasicExample />
-        <TabControlled />
-        <TabWithoutAnimation />
-        <TabCustomLayout />
-      </div>
+      {show && (
+        <div>
+          <TabBasicExample />
+          <TabControlled />
+          <TabWithoutAnimation />
+          <TabCustomLayout />
+        </div>
+      )}
       <div>
         <Button onClick={() => setShow(!show)}>Load All Tabs</Button>
       </div>
