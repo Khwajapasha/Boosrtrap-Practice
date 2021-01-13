@@ -1,5 +1,7 @@
 import React from "react";
 import { Tab, Nav, Row, Col } from "react-bootstrap";
+import { CardBasicExample } from "../CardsComponent/CardBasicExample";
+import { CardImageOverlay } from "../CardsComponent/CardImageOverlay";
 export const TabCustomLayout = () => {
   return (
     <div>
@@ -18,10 +20,10 @@ export const TabCustomLayout = () => {
           <Col sm={9}>
             <Tab.Content>
               <Tab.Pane eventKey="first">
-                <Sonnet />
+                <CardBasicExample />
               </Tab.Pane>
               <Tab.Pane eventKey="second">
-                <Sonnet />
+                <CardImageOverlay />
               </Tab.Pane>
             </Tab.Content>
           </Col>
