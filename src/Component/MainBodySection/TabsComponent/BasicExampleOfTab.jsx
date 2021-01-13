@@ -1,6 +1,8 @@
 import React from "react";
 import { Tab, Tabs } from "react-bootstrap";
 import { CardBasicExample } from "../CardsComponent/CardBasicExample";
+import { CardHeaderAndFooter } from "../CardsComponent/CardHeaderAndFooter";
+import { CardImageOverlay } from "../CardsComponent/CardImageOverlay";
 export const BasicExampleOfTab = () => {
   return (
     <div>
@@ -9,10 +11,13 @@ export const BasicExampleOfTab = () => {
           <CardBasicExample />
         </Tab>
         <Tab eventKey="profile" title="Profile">
-          {/* <Sonnet /> */}
+          <CardImageOverlay />
+        </Tab>
+        <Tab eventKey="contact" title="Contact">
+          <CardHeaderAndFooter />
         </Tab>
         <Tab eventKey="contact" title="Contact" disabled>
-          {/* <Sonnet /> */}
+          <CardHeaderAndFooter />
         </Tab>
       </Tabs>
     </div>
