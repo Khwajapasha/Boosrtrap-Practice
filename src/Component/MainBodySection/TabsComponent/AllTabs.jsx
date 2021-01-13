@@ -1,10 +1,12 @@
 import React from "react";
-import { BasicExampleOfTab } from "./BasicExampleOfTab";
+import { TabBasicExample } from "./TabBasicExample";
+import { TabControlled } from "./TabControlled";
 
 export const AllTabs = () => {
   return (
     <div>
-      <BasicExampleOfTab />
+      <TabBasicExample />
+      <TabControlled />
     </div>
   );
 };

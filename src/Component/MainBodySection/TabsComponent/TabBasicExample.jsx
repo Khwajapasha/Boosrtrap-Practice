@@ -3,7 +3,7 @@ import { Tab, Tabs } from "react-bootstrap";
 import { CardBasicExample } from "../CardsComponent/CardBasicExample";
 import { CardHeaderAndFooter } from "../CardsComponent/CardHeaderAndFooter";
 import { CardImageOverlay } from "../CardsComponent/CardImageOverlay";
-export const BasicExampleOfTab = () => {
+export const TabBasicExample = () => {
   return (
     <div>
       <br />
