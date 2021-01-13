@@ -1,5 +1,5 @@
-import { Button } from "bootstrap";
 import React, { useState } from "react";
+import { Button } from "react-bootstrap";
 import { TabBasicExample } from "./TabBasicExample";
 import { TabControlled } from "./TabControlled";
 import { TabCustomLayout } from "./TabCustomLayout";
@@ -16,7 +16,7 @@ export const AllTabs = () => {
         <TabCustomLayout />
       </div>
       <div>
-        <Button>Load All Tabs</Button>
+        <Button onClick={() => setShow(!show)}>Load All Tabs</Button>
       </div>
     </React.Fragment>
   );
