@@ -21,6 +21,7 @@ import { AllPagination } from "./PaginationComponent/AllPagination";
 import { AllProgressBar } from "./ProgressBarComponent/AllProgressBar";
 import { AllSpinners } from "./SpinnersComponent/AllSpinners";
 import { AllTables } from "./TableComponent/AllTables";
+import { AllTabs } from "./TabsComponent/AllTabs";
 export const MainBodySection = () => {
   return (
     <div>
@@ -46,6 +47,7 @@ export const MainBodySection = () => {
       <AllProgressBar />
       <AllSpinners />
       <AllTables />
+      <AllTabs />
     </div>
   );
 };
