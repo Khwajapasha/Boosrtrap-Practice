@@ -10,6 +10,9 @@ export const ToastAlignment = () => {
         minHeight: "100px",
       }}
     >
+      <br />
+      <h4>=== Toast Alignment OR Placement ===</h4>
+      <br />
       <Toast
         style={{
           position: "absolute",
