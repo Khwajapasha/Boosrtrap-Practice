@@ -13,10 +13,15 @@ export const ToastAlignment = () => {
       <br />
       <h4>=== Toast Alignment OR Placement ===</h4>
       <br />
+      <p>
+        Place toasts with custom CSS as you need them. The top right is often
+        used for notifications, as is the top middle.
+      </p>
+      <br />
       <Toast
         style={{
           position: "absolute",
-          top: 0,
+          top: 150,
           right: 0,
         }}
       >
