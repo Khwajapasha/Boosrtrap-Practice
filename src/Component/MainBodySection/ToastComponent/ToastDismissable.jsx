@@ -8,6 +8,7 @@ export const ToastDismissable = () => {
   const toggleShowB = () => setShowB(!showB);
   return (
     <div>
+      <h4>=== Dismissable Toast ===</h4>
       <Row>
         <Col xs={6}>
           <Toast show={showA} onClose={toggleShowA}>
@@ -26,7 +27,7 @@ export const ToastDismissable = () => {
           </Toast>
         </Col>
         <Col xs={6}>
-          <Button onClick={toggleShowA}>
+          <Button onClick={toggleShowA} className="mb-2">
             Toggle Toast <strong>with</strong> Animation
           </Button>
         </Col>
@@ -47,7 +48,7 @@ export const ToastDismissable = () => {
           </Toast>
         </Col>
         <Col xs={6}>
-          <Button onClick={toggleShowB}>
+          <Button onClick={toggleShowB} className="mt-2">
             Toggle Toast <strong>without</strong> Animation
           </Button>
         </Col>

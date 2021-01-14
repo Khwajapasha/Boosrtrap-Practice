@@ -1,4 +1,3 @@
-import { Toast } from "bootstrap";
 import React from "react";
 import { Toast } from "react-bootstrap";
 export const ToastBaiscExample = () => {
