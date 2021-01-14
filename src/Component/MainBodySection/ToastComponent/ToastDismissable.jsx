@@ -8,7 +8,9 @@ export const ToastDismissable = () => {
   const toggleShowB = () => setShowB(!showB);
   return (
     <div>
+      <br />
       <h4>=== Dismissable Toast ===</h4>
+      <br />
       <Row>
         <Col xs={6}>
           <Toast show={showA} onClose={toggleShowA}>

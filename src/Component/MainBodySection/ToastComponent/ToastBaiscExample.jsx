@@ -3,6 +3,9 @@ import { Toast } from "react-bootstrap";
 export const ToastBaiscExample = () => {
   return (
     <div>
+      <br />
+      <h4>=== Basic Example OF Toast ===</h4>
+      <br />{" "}
       <Toast>
         <Toast.Header>
           <img src="" className="rounded mr-2 " alt="" />
