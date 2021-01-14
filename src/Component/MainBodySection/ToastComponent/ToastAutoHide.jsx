@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import { Row, Col, Toast, Button } from "react-bootstrap";
 export const ToastAutoHide = () => {
   const [show, setShow] = useState(false);
 
   return (
     <div>
+      <br />
+      <p>
+        A Toast can also automatically hide after X milliseconds. For that, use
+        the autohide prop in combination with delay the prop to sepecify the
+        delay. But be aware, that it will only trigger the onClose function, you
+        have to set manually the show property.
+      </p>
       <Row>
         <Col xs={6}>
           <Toast
