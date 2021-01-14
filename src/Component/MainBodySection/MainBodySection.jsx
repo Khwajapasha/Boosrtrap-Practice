@@ -22,6 +22,7 @@ import { AllProgressBar } from "./ProgressBarComponent/AllProgressBar";
 import { AllSpinners } from "./SpinnersComponent/AllSpinners";
 import { AllTables } from "./TableComponent/AllTables";
 import { AllTabs } from "./TabsComponent/AllTabs";
+import { AllToast } from "./ToastComponent/AllToast";
 export const MainBodySection = () => {
   return (
     <div>
@@ -48,6 +49,7 @@ export const MainBodySection = () => {
       <AllSpinners />
       <AllTables />
       <AllTabs />
+      <AllToast />
     </div>
   );
 };
