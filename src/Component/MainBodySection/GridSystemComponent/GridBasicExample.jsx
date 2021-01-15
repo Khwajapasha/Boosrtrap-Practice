@@ -19,6 +19,16 @@ export const GridBasicExample = () => {
           <Col>1 Column in entire row</Col>
         </Row>
       </Container>
+      <br />
+      === You can set breakpoints for the fluid prop. Setting it to a breakpoint
+      (sm, md, lg, xl) will set the Container as fluid until the specified
+      breakpoint. ===
+      <br />
+      <Container fluid="sm" style={{ backgroundColor: "lightblue" }}>
+        <Row>
+          <Col>1 Column in entire row</Col>
+        </Row>
+      </Container>
     </div>
   );
 };
