@@ -7,16 +7,16 @@ export const GridBasicExample = () => {
       === Container ===
       <br />
       <Container>
-        <Row>
-          <Col>1 of 1</Col>
+        <Row style={{ backgroundColor: "lightblue" }}>
+          <Col>1 Column in entire row</Col>
         </Row>
       </Container>
       <br />
       === Container fluid ===
       <br />
-      <Container fluid>
+      <Container fluid style={{ backgroundColor: "lightblue" }}>
         <Row>
-          <Col>1 of 1</Col>
+          <Col>1 Column in entire row</Col>
         </Row>
       </Container>
     </div>

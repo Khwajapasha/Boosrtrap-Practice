@@ -18,7 +18,7 @@ export const AllToast = () => {
           <ToastAutoHide />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load all Toast</Button>
       </div>
     </React.Fragment>
