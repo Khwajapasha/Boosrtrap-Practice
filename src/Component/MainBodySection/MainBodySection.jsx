@@ -23,6 +23,7 @@ import { AllSpinners } from "./SpinnersComponent/AllSpinners";
 import { AllTables } from "./TableComponent/AllTables";
 import { AllTabs } from "./TabsComponent/AllTabs";
 import { AllToast } from "./ToastComponent/AllToast";
+import { AllGrid } from "./GridSystemComponent/AllGrid";
 export const MainBodySection = () => {
   return (
     <div>
@@ -50,6 +51,7 @@ export const MainBodySection = () => {
       <AllTables />
       <AllTabs />
       <AllToast />
+      <AllGrid />
     </div>
   );
 };
