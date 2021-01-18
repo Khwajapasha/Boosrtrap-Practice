@@ -3,6 +3,12 @@ import { Container, Row, Col } from "react-bootstrap";
 export const GridVariableWidthContent = () => {
   return (
     <div className="mt-4">
+      <br />
+      <h5>
+        Set the column value (for any breakpoint size) to "auto" to size columns
+        based on the natural width of their content.
+      </h5>
+      <br />
       <Container>
         <Row
           className="justify-content-md-center"
