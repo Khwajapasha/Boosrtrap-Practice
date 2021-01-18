@@ -63,20 +63,6 @@ export const GridResponsive = () => {
         </Row>
       </Container>
       <br />
-      <br />
-      <h5>
-        You can use the order property to control the visual order of your
-        content.
-      </h5>
-      <Container>
-        <Row style={{ backgroundColor: "lightblue" }} className="mt-2">
-          <Col xs>First, but unordered</Col>
-          <Col xs={{ order: 12 }}>Second, but last</Col>
-          <Col xs={{ order: 1 }} style={{ backgroundColor: "yellow" }}>
-            Third, but second
-          </Col>
-        </Row>
-      </Container>
     </div>
   );
 };

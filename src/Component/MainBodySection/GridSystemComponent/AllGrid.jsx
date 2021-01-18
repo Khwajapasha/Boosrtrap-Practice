@@ -4,6 +4,7 @@ import { GridAutoColumnWidth } from "./GridAutoColumnWidth";
 import { GridSettingOneColumnWidth } from "./GridSettingOneColumnWidth";
 import { GridVariableWidthContent } from "./GridVariableWidthContent";
 import { GridResponsive } from "./GridResponsive";
+import { GridVisualOrder } from "./GridVisualOrder";
 
 export const AllGrid = () => {
   return (
@@ -13,6 +14,7 @@ export const AllGrid = () => {
       <GridSettingOneColumnWidth />
       <GridVariableWidthContent />
       <GridResponsive />
+      <GridVisualOrder />
     </div>
   );
 };
