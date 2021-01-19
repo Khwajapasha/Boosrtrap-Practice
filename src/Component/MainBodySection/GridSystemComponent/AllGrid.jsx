@@ -22,7 +22,7 @@ export const AllGrid = () => {
         <GridSettingColumnWidthInRow />
       </div>
       <div>
-        <Button>Load All Grid</Button>
+        <Button onClick={() => setShow(!show)}>Load All Grid</Button>
       </div>
     </React.Fragment>
   );
