@@ -9,14 +9,16 @@ import { GridSettingColumnWidthInRow } from "./GridSettingColumnWidthInRow";
 
 export const AllGrid = () => {
   return (
-    <div>
-      <GridBasicExample />
-      <GridAutoColumnWidth />
-      <GridSettingOneColumnWidth />
-      <GridVariableWidthContent />
-      <GridResponsive />
-      <GridVisualOrder />
-      <GridSettingColumnWidthInRow />
-    </div>
+    <React.Fragment>
+      <div>
+        <GridBasicExample />
+        <GridAutoColumnWidth />
+        <GridSettingOneColumnWidth />
+        <GridVariableWidthContent />
+        <GridResponsive />
+        <GridVisualOrder />
+        <GridSettingColumnWidthInRow />
+      </div>
+    </React.Fragment>
   );
 };
