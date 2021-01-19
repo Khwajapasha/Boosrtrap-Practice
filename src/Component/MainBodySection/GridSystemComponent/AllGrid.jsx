@@ -6,7 +6,7 @@ import { GridVariableWidthContent } from "./GridVariableWidthContent";
 import { GridResponsive } from "./GridResponsive";
 import { GridVisualOrder } from "./GridVisualOrder";
 import { GridSettingColumnWidthInRow } from "./GridSettingColumnWidthInRow";
-import { Button } from "bootstrap";
+import { Button } from "react-bootstrap";
 
 export const AllGrid = () => {
   return (
