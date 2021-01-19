@@ -3,12 +3,12 @@ import { Media } from "react-bootstrap";
 export const MediaBasicExample = () => {
   return (
     <div>
-      <Media>
+      <Media style={{ width: "70%" }}>
         <img
           width={64}
           height={64}
           className="mr-3"
-          src="holder.js/64x64"
+          src="Assets/NewPickUpBizLogo.PNG"
           alt="Generic placeholder"
         />
         <Media.Body>
