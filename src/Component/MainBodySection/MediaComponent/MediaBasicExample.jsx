@@ -18,7 +18,7 @@ export const MediaBasicExample = () => {
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h5>Media Heading</h5>
+          <h5>Basic Example of Media </h5>
           <p>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
             scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
