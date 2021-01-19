@@ -12,16 +12,18 @@ export const AllGrid = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
-      <div>
-        <GridBasicExample />
-        <GridAutoColumnWidth />
-        <GridSettingOneColumnWidth />
-        <GridVariableWidthContent />
-        <GridResponsive />
-        <GridVisualOrder />
-        <GridSettingColumnWidthInRow />
-      </div>
-      <div>
+      {show && (
+        <div>
+          <GridBasicExample />
+          <GridAutoColumnWidth />
+          <GridSettingOneColumnWidth />
+          <GridVariableWidthContent />
+          <GridResponsive />
+          <GridVisualOrder />
+          <GridSettingColumnWidthInRow />
+        </div>
+      )}
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>Load All Grid</Button>
       </div>
     </React.Fragment>
