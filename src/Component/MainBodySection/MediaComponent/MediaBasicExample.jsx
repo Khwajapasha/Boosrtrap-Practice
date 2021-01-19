@@ -3,6 +3,12 @@ import { Media } from "react-bootstrap";
 export const MediaBasicExample = () => {
   return (
     <div>
+      <br />
+      <h5>
+        === The media object helps build complex and repetitive components (e.g.
+        blog comments, tweets, the like and more) ===
+      </h5>
+      <br />
       <Media style={{ width: "70%" }}>
         <img
           width={64}
