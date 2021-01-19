@@ -24,6 +24,7 @@ import { AllTables } from "./TableComponent/AllTables";
 import { AllTabs } from "./TabsComponent/AllTabs";
 import { AllToast } from "./ToastComponent/AllToast";
 import { AllGrid } from "./GridSystemComponent/AllGrid";
+import { AllMedia } from "./MediaComponent/AllMedia";
 export const MainBodySection = () => {
   return (
     <div>
@@ -52,6 +53,7 @@ export const MainBodySection = () => {
       <AllTabs />
       <AllToast />
       <AllGrid />
+      <AllMedia />
     </div>
   );
 };
