@@ -17,7 +17,7 @@ export const AllMedia = () => {
         <MediaASList />
       </div>
       <div>
-        <Button>Load All Media</Button>
+        <Button onClick={() => setShow(!show)}>Load All Media</Button>
       </div>
     </React.Fragment>
   );
