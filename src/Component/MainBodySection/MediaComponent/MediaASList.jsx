@@ -22,7 +22,7 @@ export const MediaASList = () => {
             </p>
           </Media.Body>
         </Media>
-        <Media as="li">
+        <Media as="li" style={{ backgroundColor: "pink" }} className="mt-2">
           <img
             width={64}
             height={64}
@@ -31,7 +31,7 @@ export const MediaASList = () => {
             alt="Generic placeholder"
           />
           <Media.Body>
-            <h5>List-based media object</h5>
+            <h5>List-based media object 2</h5>
             <p>
               Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
               scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
