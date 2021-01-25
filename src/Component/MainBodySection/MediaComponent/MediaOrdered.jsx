@@ -3,7 +3,7 @@ import { Media } from "react-bootstrap";
 export const MediaOrdered = () => {
   return (
     <div>
-      <Media>
+      <Media style={{ backgroundColor: "pink" }}>
         <Media.Body>
           <h5>Media Heading</h5>
           <p>
@@ -17,8 +17,8 @@ export const MediaOrdered = () => {
           width={64}
           height={64}
           className="ml-3"
-          src="holder.js/64x64"
-          alt="Generic placeholder"
+          src="Assets/Rose.jpg"
+          alt="Assets/Rose.jpg"
         />
       </Media>
     </div>
