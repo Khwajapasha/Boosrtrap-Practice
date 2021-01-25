@@ -8,7 +8,7 @@ export const MediaAlignment = () => {
           width={64}
           height={64}
           className="align-self-start mr-3"
-          src="holder.js/64x64"
+          src="Assets/Rose.jpg"
           alt="Generic placeholder"
         />
         <Media.Body>
@@ -33,7 +33,7 @@ export const MediaAlignment = () => {
           width={64}
           height={64}
           className="align-self-center mr-3"
-          src="holder.js/64x64"
+          src="Assets/Rose.jpg"
           alt="Generic placeholder"
         />
         <Media.Body>
@@ -58,7 +58,7 @@ export const MediaAlignment = () => {
           width={64}
           height={64}
           className="align-self-end mr-3"
-          src="holder.js/64x64"
+          src="Assets/Rose.jpg"
           alt="Generic placeholder"
         />
         <Media.Body>
