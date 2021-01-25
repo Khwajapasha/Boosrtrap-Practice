@@ -2,7 +2,7 @@ import React from "react";
 import { Media } from "react-bootstrap";
 export const MediaASList = () => {
   return (
-    <div>
+    <div className="mt-4">
       <ul className="list-unstyled">
         <Media as="li" style={{ backgroundColor: "pink" }}>
           <img
