@@ -2,10 +2,10 @@ import React from "react";
 import { Media } from "react-bootstrap";
 export const MediaOrdered = () => {
   return (
-    <div>
+    <div className="mt-4">
       <Media style={{ backgroundColor: "pink" }}>
         <Media.Body>
-          <h5>Media Heading</h5>
+          <h5>Media Ordered</h5>
           <p>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
             scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
