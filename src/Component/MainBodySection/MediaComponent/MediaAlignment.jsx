@@ -3,7 +3,7 @@ import { Media } from "react-bootstrap";
 export const MediaAlignment = () => {
   return (
     <div>
-      <Media>
+      <Media style={{ backgroundColor: "pink" }}>
         <img
           width={64}
           height={64}
@@ -12,7 +12,7 @@ export const MediaAlignment = () => {
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h5>Media Heading</h5>
+          <h5>Media Align Start</h5>
           <p>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
             scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
@@ -28,7 +28,7 @@ export const MediaAlignment = () => {
         </Media.Body>
       </Media>
       <br />
-      <Media>
+      <Media style={{ backgroundColor: "pink" }}>
         <img
           width={64}
           height={64}
@@ -37,7 +37,7 @@ export const MediaAlignment = () => {
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h5>Media Heading</h5>
+          <h5>Media Align Center</h5>
           <p>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
             scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
@@ -53,7 +53,7 @@ export const MediaAlignment = () => {
         </Media.Body>
       </Media>
       <br />
-      <Media>
+      <Media style={{ backgroundColor: "pink" }}>
         <img
           width={64}
           height={64}
@@ -62,7 +62,7 @@ export const MediaAlignment = () => {
           alt="Generic placeholder"
         />
         <Media.Body>
-          <h5>Media Heading</h5>
+          <h5>Media Align End</h5>
           <p>
             Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
             scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
