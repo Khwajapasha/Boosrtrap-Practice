@@ -30,37 +30,39 @@ export const MainBodySection = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
-      <div>
-        <br />
-        <h1>Implemented All Bootstrap </h1>
-        <br />
-        <AllAlert />
-        <AllAccordions />
-        <AllBadges />
-        <AllBreadcrumb />
-        <AllButtons />
-        <AllGroupsButton />
-        <AllCards />
-        <AllCarousel />
-        <AllDropDown />
-        <AllForms />
-        <AllInputGroups />
-        <AllImages />
-        <AllListGroup />
-        <AllModal />
-        <AllNavs />
-        <AllNavbar />
-        <AllOverlay />
-        <AllPopover />
-        <AllPagination />
-        <AllProgressBar />
-        <AllSpinners />
-        <AllTables />
-        <AllTabs />
-        <AllToast />
-        <AllGrid />
-        <AllMedia />
-      </div>
+      {show && (
+        <div>
+          <br />
+          <h1>Implemented All Bootstrap </h1>
+          <br />
+          <AllAlert />
+          <AllAccordions />
+          <AllBadges />
+          <AllBreadcrumb />
+          <AllButtons />
+          <AllGroupsButton />
+          <AllCards />
+          <AllCarousel />
+          <AllDropDown />
+          <AllForms />
+          <AllInputGroups />
+          <AllImages />
+          <AllListGroup />
+          <AllModal />
+          <AllNavs />
+          <AllNavbar />
+          <AllOverlay />
+          <AllPopover />
+          <AllPagination />
+          <AllProgressBar />
+          <AllSpinners />
+          <AllTables />
+          <AllTabs />
+          <AllToast />
+          <AllGrid />
+          <AllMedia />
+        </div>
+      )}
       <div>
         <Button onClick={() => setShow(!show)}>
           Click To Load All Component
