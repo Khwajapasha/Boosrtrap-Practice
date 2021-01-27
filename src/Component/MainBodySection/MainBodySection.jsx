@@ -63,7 +63,7 @@ export const MainBodySection = () => {
           <AllMedia />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>
           Click To Load All Component
         </Button>
