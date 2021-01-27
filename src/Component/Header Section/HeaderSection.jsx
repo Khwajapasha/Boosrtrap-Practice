@@ -7,10 +7,12 @@ export const HeaderSection = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
-      <div>
-        <AllJumbotron />
-        <AddMultipleDivOnClick />
-      </div>
+      {show && (
+        <div>
+          <AllJumbotron />
+          <AddMultipleDivOnClick />
+        </div>
+      )}
       <div>
         <Button onClick={() => setShow(!show)}>
           Load All Header Component
