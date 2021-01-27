@@ -62,7 +62,9 @@ export const MainBodySection = () => {
         <AllMedia />
       </div>
       <div>
-        <Button>Click To Load All Component</Button>
+        <Button onClick={() => setShow(!show)}>
+          Click To Load All Component
+        </Button>
       </div>
     </React.Fragment>
   );
