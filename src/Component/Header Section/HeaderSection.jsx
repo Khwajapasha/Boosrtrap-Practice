@@ -12,7 +12,9 @@ export const HeaderSection = () => {
         <AddMultipleDivOnClick />
       </div>
       <div>
-        <Button>Load All Header Component</Button>
+        <Button onClick={() => setShow(!show)}>
+          Load All Header Component
+        </Button>
       </div>
     </React.Fragment>
   );
