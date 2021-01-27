@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Button } from "react-bootstrap";
 import { AllAccordions } from "./AccordionComponent/AllAccordions";
 import { AllAlert } from "./AlertComponent/AllAlert";
@@ -27,6 +27,7 @@ import { AllToast } from "./ToastComponent/AllToast";
 import { AllGrid } from "./GridSystemComponent/AllGrid";
 import { AllMedia } from "./MediaComponent/AllMedia";
 export const MainBodySection = () => {
+  const [show, setShow] = useState(false);
   return (
     <React.Fragment>
       <div>
