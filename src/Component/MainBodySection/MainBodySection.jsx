@@ -1,4 +1,5 @@
 import React from "react";
+import { Button } from "react-bootstrap";
 import { AllAccordions } from "./AccordionComponent/AllAccordions";
 import { AllAlert } from "./AlertComponent/AllAlert";
 import { AllBadges } from "./BadgesComponent/AllBadges";
@@ -27,33 +28,41 @@ import { AllGrid } from "./GridSystemComponent/AllGrid";
 import { AllMedia } from "./MediaComponent/AllMedia";
 export const MainBodySection = () => {
   return (
-    <div>
-      <AllAlert />
-      <AllAccordions />
-      <AllBadges />
-      <AllBreadcrumb />
-      <AllButtons />
-      <AllGroupsButton />
-      <AllCards />
-      <AllCarousel />
-      <AllDropDown />
-      <AllForms />
-      <AllInputGroups />
-      <AllImages />
-      <AllListGroup />
-      <AllModal />
-      <AllNavs />
-      <AllNavbar />
-      <AllOverlay />
-      <AllPopover />
-      <AllPagination />
-      <AllProgressBar />
-      <AllSpinners />
-      <AllTables />
-      <AllTabs />
-      <AllToast />
-      <AllGrid />
-      <AllMedia />
-    </div>
+    <React.Fragment>
+      <div>
+        <br />
+        <h1>Implemented All Bootstrap </h1>
+        <br />
+        <AllAlert />
+        <AllAccordions />
+        <AllBadges />
+        <AllBreadcrumb />
+        <AllButtons />
+        <AllGroupsButton />
+        <AllCards />
+        <AllCarousel />
+        <AllDropDown />
+        <AllForms />
+        <AllInputGroups />
+        <AllImages />
+        <AllListGroup />
+        <AllModal />
+        <AllNavs />
+        <AllNavbar />
+        <AllOverlay />
+        <AllPopover />
+        <AllPagination />
+        <AllProgressBar />
+        <AllSpinners />
+        <AllTables />
+        <AllTabs />
+        <AllToast />
+        <AllGrid />
+        <AllMedia />
+      </div>
+      <div>
+        <Button>Click To Load All Component</Button>
+      </div>
+    </React.Fragment>
   );
 };
