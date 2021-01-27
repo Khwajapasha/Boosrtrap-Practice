@@ -13,7 +13,7 @@ export const HeaderSection = () => {
           <AddMultipleDivOnClick />
         </div>
       )}
-      <div>
+      <div className="mt-2">
         <Button onClick={() => setShow(!show)}>
           Load All Header Component
         </Button>
