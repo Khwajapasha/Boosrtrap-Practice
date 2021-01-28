@@ -13,7 +13,17 @@ export const ContainerBasicExample = () => {
         <Container maxWidth="sm">
           <Typography
             component="div"
-            style={{ backgroundColor: "#cfe8fc", height: "100vh" }}
+            style={{ backgroundColor: "#cfe8fc", height: "30vh" }}
+          />
+        </Container>
+        <br />
+        <h6>...Fixed Container...</h6>
+        <br />
+        <CssBaseline />
+        <Container fixed>
+          <Typography
+            component="div"
+            style={{ backgroundColor: "#cfe8fc", height: "30vh" }}
           />
         </Container>
       </React.Fragment>
