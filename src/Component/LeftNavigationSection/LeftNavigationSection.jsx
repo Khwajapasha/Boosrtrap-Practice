@@ -1,5 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { AllLayout } from "./Layout/AllLayout";
+
 export const LeftNavigationSection = () => {
   return (
     <React.Fragment>
@@ -8,6 +10,9 @@ export const LeftNavigationSection = () => {
       </div>
       <div>
         <Button>Load All Material UI Component</Button>
+      </div>
+      <div>
+        <AllLayout />
       </div>
     </React.Fragment>
   );
