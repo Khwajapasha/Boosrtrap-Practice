@@ -30,11 +30,14 @@ export const MainBodySection = () => {
   const [show, setShow] = useState(false);
   return (
     <React.Fragment>
+      <div>
+        <br />
+        <h1>Implemented All Bootstrap Component</h1>
+        <br />
+      </div>
       {show && (
         <div>
-          <br />
-          <h1>Implemented All Bootstrap </h1>
-          <br />
+          {" "}
           <AllAlert />
           <AllAccordions />
           <AllBadges />
@@ -63,9 +66,10 @@ export const MainBodySection = () => {
           <AllMedia />
         </div>
       )}
+
       <div className="mt-2">
         <Button onClick={() => setShow(!show)}>
-          Click To Load All Component
+          Click To Load All Bootstrap Component
         </Button>
       </div>
     </React.Fragment>
