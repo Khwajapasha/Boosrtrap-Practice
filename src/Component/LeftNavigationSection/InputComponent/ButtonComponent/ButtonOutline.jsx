@@ -15,6 +15,9 @@ export const ButtonOutline = () => {
 
   return (
     <div className={classes.root}>
+      <br />
+      <h5>Outline Buttons</h5>
+      <br />
       <Button variant="outlined">Default</Button>
       <Button variant="outlined" color="primary">
         Primary
