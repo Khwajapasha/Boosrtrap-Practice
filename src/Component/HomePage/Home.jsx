@@ -6,18 +6,11 @@ import { LeftNavigationSection } from "../LeftNavigationSection/LeftNavigationSe
 export const Home = () => {
   return (
     <div>
-      <Row>
-        <Col>
-          <LeftNavigationSection />
-        </Col>
-        <Col>
-          <HeaderSection />
-        </Col>
+      <LeftNavigationSection />
 
-        <Col>
-          <MainBodySection />
-        </Col>
-      </Row>
+      <HeaderSection />
+
+      <MainBodySection />
     </div>
   );
 };

@@ -28,6 +28,10 @@ export const GridSpacing = () => {
   };
   return (
     <div>
+      {" "}
+      <br />
+      <h5>Dynamic Spacing In Grid</h5>
+      <br />
       <Grid container className={classes.root} spacing={2}>
         <Grid item xs={12}>
           <Grid container justify="center" spacing={spacing}>
