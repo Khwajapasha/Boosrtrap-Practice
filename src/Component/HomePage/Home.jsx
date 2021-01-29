@@ -6,9 +6,8 @@ import { LeftNavigationSection } from "../LeftNavigationSection/LeftNavigationSe
 export const Home = () => {
   return (
     <div>
-      <LeftNavigationSection />
-
       <HeaderSection />
+      <LeftNavigationSection />
 
       <MainBodySection />
     </div>
