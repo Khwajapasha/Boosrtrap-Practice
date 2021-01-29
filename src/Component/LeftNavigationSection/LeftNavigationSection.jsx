@@ -1,5 +1,6 @@
 import React from "react";
 import { Button } from "react-bootstrap";
+import { AllInput } from "./InputComponent/AllInput";
 import { AllLayout } from "./LayoutComponent/AllLayout";
 
 export const LeftNavigationSection = () => {
@@ -13,7 +14,7 @@ export const LeftNavigationSection = () => {
       </div>
       <div>
         <AllLayout />
-        <AllLayout />
+        <AllInput />
       </div>
     </React.Fragment>
   );
